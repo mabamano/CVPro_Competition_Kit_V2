@@ -7,11 +7,11 @@ The CV Pro Competition kit is crafted for the future engineers who compete in va
 
 ## Get the source code
 
-- You can download the repository as a [zip file](https://github.com/robotixdevteam/CVPro-Competition-Kit/archive/refs/heads/master.zip) and extract it into a folder of your choice.
+- You can download the repository as a [zip file](https://github.com/robotixdevteam/CVPro_Competition_Kit/archive/refs/heads/master.zip) and extract it into a folder of your choice.
 - You can clone the CVPRO-Competition-Kit repository from GitHub with the following command:
 
     ```bash
-    git clone https://github.com/robotixdevteam/CVPro-Competition-Kit
+    git clone https://github.com/robotixdevteam/CVPro_Competition_Kit
     ```
 
 ## Mechanical Parts
@@ -91,6 +91,7 @@ The HC-SR04 Ultrasonic Sensor is a widely used device for measuring distances ba
 |***RGB LED***|  ***-***  |  ***-***  |    ***15***   | ***-*** |
 |***NSLEEP For Motor***|  ***-***  |  ***-***  |    ***13***   | ***-*** |
 |***Battery Voltage Reading***|  ***-***  |  ***-***  |  ***39***  | ***-*** |
+|***DPDT Push Button***|  ***-***  |  ***-***  |  ***34***  | ***-*** |
 
 
 Kindly refer to the pins provided in the [above table](#Table) for programming firmware.
@@ -99,7 +100,7 @@ Kindly refer to the pins provided in the [above table](#Table) for programming f
 1. Ensure that every USB cable is connected to its designated port as specified.
 2. The kit's servo angle is fixed at **100 degrees**.
 3. The PCB lacks protective covering; avoid placing conductive materials on it.
-4. When adjusting the angle, stay within a **25-degree** range to the __left and right of the center angle (100 degrees)__, which allows movement between **75** and **125 degrees**. Deviating beyond these limits may result in damage to the product.
+4. When adjusting the angle, stay within a **20-degree** range to the __left and right of the center angle (100 degrees)__, which allows movement between **80** and **120 degrees**. Deviating beyond these limits may result in damage to the product.
 5. Handle with care to avoid wire wear.
 
 ### Libraries
