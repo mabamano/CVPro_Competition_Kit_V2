@@ -1,4 +1,4 @@
-// This firmware was developed by Development Team, Meritus AI. 2024
+// This firmware was developed by the Development Team at Meritus AI, 2024.
 #include <FastLED.h>
 
 #define LED_PIN 15

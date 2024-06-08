@@ -1,4 +1,4 @@
-// This firmware was developed by Development Team, Meritus AI. 2024
+// This firmware was developed by the Development Team at Meritus AI, 2024.
 
 #define BUTTON_PIN 34 // GIOP21 pin connected to button
  
