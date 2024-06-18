@@ -4,7 +4,10 @@
 
 Servo servo;
 
-int left, center, right;
+// Set the bot servo angles
+int left = 80;
+int center = 100;
+int right = 120;
 
 
 void setup() {
@@ -12,7 +15,7 @@ void setup() {
   servo.attach(SERVO_PIN);
   
   moveServoTo(center);  
-  delay(100);
+  delay(500);
 }
 
 void moveServoTo(int angle) {
@@ -27,11 +30,7 @@ void moveServoTo(int angle) {
 
 void loop() {
 
-  left = 80;
-  center = 100;
-  right = 120;
-
-  Simple Servo Test : 
+  // Simple Servo Test : 
   moveServoTo(left);    // Servo Left turn.
   delay(1000);          // Delay for 1 second.
   moveServoTo(center);  // Servo Center turn.
@@ -41,5 +40,8 @@ void loop() {
   moveServoTo(center);  // Servo Center turn.
   delay(1000);          // Delay for 1 second.
 
- // moveServoTo(100);
+  // To Set Servo Center
+  //moveServoTo(100);
+
+
 }

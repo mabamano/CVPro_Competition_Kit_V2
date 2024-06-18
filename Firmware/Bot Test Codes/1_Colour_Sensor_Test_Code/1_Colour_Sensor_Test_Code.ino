@@ -35,7 +35,8 @@ void front_colour_sensor() {
   uint16_t colorTemp1 = tcs1.calculateColorTemperature(r, g, b);
   Serial.println("CS-1 Color Temp: "+ String(colorTemp1));
   uint16_t lux = tcs1.calculateLux(r, g, b);
- // Serial.println("CS-1 : Red: "+ String(r)+", Green: "+String(g)+", Blue: "+String(b) +", Clear: "+String(c) +", Color Temp: "+ String(colorTemp1));
+ // Serial.println("CS-1 : Red: "+ String(r)+", Green: "+String(g)+", Blue: "+String(b) +", 
+ // Clear: "+String(c) +", Color Temp: "+ String(colorTemp1));
   //delay(100);
 }
 
@@ -47,7 +48,8 @@ void back_colour_sensor() {
   uint16_t colorTemp2 = tcs2.calculateColorTemperature(r, g, b);
   Serial.println("CS-2 Color Temp: "+ String(colorTemp2));
   uint16_t lux = tcs2.calculateLux(r, g, b);
-  //Serial.println("CS-2 : Red: "+ String(r)+", Green: "+String(g)+", Blue: "+String(b) +", Clear: "+String(c) +", Color Temp: "+ String(colorTemp2));
+  //Serial.println("CS-2 : Red: "+ String(r)+", Green: "+String(g)+", Blue: "+String(b) +", 
+  //Clear: "+String(c) +", Color Temp: "+ String(colorTemp2));
 
 }
 
