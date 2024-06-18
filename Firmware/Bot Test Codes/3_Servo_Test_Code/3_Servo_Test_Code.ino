@@ -14,17 +14,15 @@ void setup() {
   Serial.begin(115200);
   servo.attach(SERVO_PIN);
   
-  moveServoTo(center);  
-  delay(500);
+  // moveServoTo(center);  
+  // delay(500);
 }
 
 void moveServoTo(int angle) {
-  // Constrain the angle between 0 and 180 degrees
-  angle = constrain(angle, 0, 180);
-  // Move the servo to the specified angle
-  servo.write(angle);
-  delay(15); // Delay for servo to reach the position
-  Serial.println("Servo Angle : "+String(angle));
+  angle = constrain(angle, 70, 130); // Constrain the angle between 70 and 130 degrees
+  servo.write(angle);               // Move the servo to the specified angle
+  delay(500);                       // Delay for servo to reach the position
+ // Serial.println("Servo Angle : "+String(angle));
 }
 
 
