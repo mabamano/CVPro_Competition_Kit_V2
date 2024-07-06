@@ -16,7 +16,7 @@ void setup() {
 }
 
 void moveServoTo(int angle) {
-  angle = constrain(angle, 70, 130); // Constrain the angle between 70 and 130 degrees
+  angle = constrain(angle, 75, 125); // Constrain the angle between 70 and 130 degrees
   servo.write(angle);               // Move the servo to the specified angle
   // delay(10);                       // Delay for servo to reach the position
   //Serial.println("Servo Angle : "+String(angle));
