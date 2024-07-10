@@ -1,3 +1,5 @@
+// Kindly Check whether the Library Files are installed in Library Manager.
+
 #include <FastLED.h>
 
 #define LED_PIN 15
@@ -20,7 +22,19 @@ void rgb_led(int r, int g, int b)
 
 void loop() {
   // Set the LED color to purple (150, 0, 150) for 1 second
-  rgb_led(150, 0, 150)
+  rgb_led(255, 0, 0)
+  delay(1000);
+
+  rgb_led(0, 0, 0)
+  delay(1000);
+
+  rgb_led(0, 255, 0)
+  delay(1000);
+
+  rgb_led(0, 0, 0)
+  delay(1000);
+
+  rgb_led(0, 0, 255)
   delay(1000);
 
   rgb_led(0, 0, 0)

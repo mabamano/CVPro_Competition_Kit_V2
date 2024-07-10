@@ -1,3 +1,5 @@
+// Kindly Check whether the Library Files are installed in Library Manager.
+
 #include <NewPing.h>
 
 #define FRONT_TRIGGER 12 
@@ -49,7 +51,7 @@ void US_Values()
   left_us = sonar3.ping_cm(); 
   right_us = sonar4.ping_cm(); 
 
-  Serial.println("F_US : " + String(front_us) + " | F1_US : " + String(front1_us) + " | F2_US : " + String(front2_us) + 
+  Serial.println("F1_US : " + String(front1_us) + " | F_US : " + String(front_us) + " | F2_US : " + String(front2_us) + 
               " | B_US : " + String(back_us) + " | L_US : " + String(left_us) + " | R_US : " + String(right_us));
 
 }

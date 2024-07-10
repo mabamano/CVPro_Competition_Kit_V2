@@ -1,9 +1,10 @@
+// Kindly Check whether the Library Files are installed in Library Manager.
+
 #include <Wire.h>
 #include <Adafruit_TCS34725.h>
 
 ///////////////////color sensor///////////////////
 
-#define PCA9548A_ADDRESS 0x70  //mux address 0x70
 #define TCS3414CS_ADDRESS 0x29 //ColorSensor address 0x29
 
 // Initializing ColorSensor
@@ -21,7 +22,6 @@ void loop() {
 
 //ColorSensor Function
 void front_colour_sensor() {
-  TCA9548A(0);
   uint16_t r, g, b, c;
   tcs1.getRawData(&r, &g, &b, &c);
   uint16_t colorTemp = tcs1.calculateColorTemperature(r, g, b);

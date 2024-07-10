@@ -1,3 +1,5 @@
+// Kindly Check whether the Library Files are installed in Library Manager.
+
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -25,16 +27,16 @@ void loop() {
        //(x, y) (128, 64)
 
       display.setCursor(0, 1);
-      display.println("a");
+      display.println("Hello");
 
       display.setCursor(0, 16);
-      display.println("b");
+      display.println("1");
 
       display.setCursor(0, 35);
-      display.println("c");
+      display.println("2");
 
       display.setCursor(0, 55);
-      display.println("d");
+      display.println("3");
 
       display.display();
       delay(5);

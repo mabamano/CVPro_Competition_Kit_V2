@@ -39,11 +39,11 @@ void setup() {
 
 void loop() {
 
-  motor_forward(190);   // Forward function
-  // delay(2000);          // Delay for 2 seconds.
-  // motor_backward(240);  // Backward function
-  // delay(2000);          // Delay for 2 seconds.
-  // motor_stop();         // Stop function
-  // delay(2000);          // Delay for 2 seconds.
+  motor_forward(240);   // Forward function
+  delay(2000);          // Delay for 2 seconds.
+  motor_backward(240);  // Backward function
+  delay(2000);          // Delay for 2 seconds.
+  motor_stop();         // Stop function
+  delay(2000);          // Delay for 2 seconds.
 
 }

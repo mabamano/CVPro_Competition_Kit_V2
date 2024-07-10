@@ -1,4 +1,4 @@
-// This firmware was developed by the Development Team at Meritus AI, 2024.
+// Kindly Check whether the Library Files are installed in Library Manager.
 #include <ESP32Servo.h>
 #define SERVO_PIN 27 
 
@@ -26,17 +26,17 @@ void moveServoTo(int angle) {
 void loop() {
 
   // Simple Servo Test : 
-  // moveServoTo(left);    // Servo Left turn.
-  // delay(1000);          // Delay for 1 second.
-  // moveServoTo(center);  // Servo Center turn.
-  // delay(1000);          // Delay for 1 second.
-  // moveServoTo(right);   // Servo Right turn.
-  // delay(1000);          // Delay for 1 second.
-  // moveServoTo(center);  // Servo Center turn.
-  // delay(1000);          // Delay for 1 second.
+  moveServoTo(left);    // Servo Left turn.
+  delay(1000);          // Delay for 1 second.
+  moveServoTo(center);  // Servo Center turn.
+  delay(1000);          // Delay for 1 second.
+  moveServoTo(right);   // Servo Right turn.
+  delay(1000);          // Delay for 1 second.
+  moveServoTo(center);  // Servo Center turn.
+  delay(1000);          // Delay for 1 second.
 
   // To Set Servo Center
-  moveServoTo(100);
+  //moveServoTo(100);
 
 
 }
