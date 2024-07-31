@@ -79,7 +79,7 @@ The HC-SR04 Ultrasonic Sensor is a widely used device for measuring distances ba
 
 ## Port and Pin Details 
 ### Table 
-|    ***Function***   |  ***Port Type***    |  ***Port No*** |                      ***Pins***               |  
+|    ***Function***   |  ***Port Type***    |  ***Port No*** |                      ***GPIO Pins***               |  
 |:-------------------:| :-----------------: | :------------: | :-------------------------------------------: | 
 |***Motor (Battery Operated Motor)***|    ***USB 3.0***    |   ***1***      |    ***32,33***     |
 |***F1US & F2US (Front 1 & Front 2 Ultrasonic Sensors)***|    ***USB 3.0***    |  ***2***  |  ***F1-16,14 and F2-25,26***   |
