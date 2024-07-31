@@ -82,12 +82,11 @@ The HC-SR04 Ultrasonic Sensor is a widely used device for measuring distances ba
 |    ***Function***   |  ***Port Type***    |  ***Port No*** |                      ***Pins***               |  
 |:-------------------:| :-----------------: | :------------: | :-------------------------------------------: | 
 |***Motor (Battery Operated Motor)***|    ***USB 3.0***    |   ***1***      |    ***32,33***     |
-|***F1US & F2US (F1 & F2 Ultrasonic Sensors)***|    ***USB 3.0***    |  ***2***  |  ***F1- 16,14 and F2-25,26***   |
+|***F1US & F2US (Front 1 & Front 2 Ultrasonic Sensors)***|    ***USB 3.0***    |  ***2***  |  ***F1-16,14 and F2-25,26***   |
 |***BUS (Back Ultrasonic Sensor)***|***USB 3.0*** |   ***3***      |    ***17,19***    | 
 |***SM (Servo Motor)***|  ***USB 3.0***  |  ***4***  |  ***27***  | 
-|***RUS & LUS (Right & Left Ultrasonic Sensors)***|    ***USB 3.0***    |  ***5***  |  ***Right- 2,23 and Left-5,18***   |
+|***RUS & LUS (Right & Left Ultrasonic Sensors)***|    ***USB 3.0***    |  ***5***  |  ***Right-2,23 and Left-5,18***   |
 |***FUS (Front Ultrasonic Sensor)***|    ***USB 2.0***    |  ***6***  | ***12,4***  | 
-|***F1US & F2US (F1 & F2 Ultrasonic Sensors)***|    ***USB 3.0***    |  ***2***  |  ***F1- 16,14 and F2-25,26***   |
 |***MUX (Multiplexer)***|   ***USB 2.0***    |  ***7*** |  ***22,21***   | ***-*** |
 |***RGB LED***|  ***-***  |  ***-***  |    ***15***   | ***-*** |
 |***NSLEEP For Motor***|  ***-***  |  ***-***  |    ***13***   | ***-*** |
