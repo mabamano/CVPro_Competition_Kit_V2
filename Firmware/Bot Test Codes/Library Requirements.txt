@@ -1,0 +1,7 @@
+// Kindly Check whether the Library Files are installed in Library Manager.
+
+1. Go to Board Manager and type esp32, Select Version 2.0.17
+2. Library Manager --> NewPing, Select Version 1.9.7
+3. Library Manager --> FastLED, Select Version 3.7.0
+4. Library Manager --> ESP32Servo, Select Version 1.2.1
+5. Library Manager --> Adafruit TCS34725, Select Version 1.4.4

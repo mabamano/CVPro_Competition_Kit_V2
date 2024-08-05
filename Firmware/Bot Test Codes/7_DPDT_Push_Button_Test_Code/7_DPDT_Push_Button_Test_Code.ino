@@ -14,12 +14,6 @@ void setup() {
 void loop() {
 
   DPDT_STATE = digitalRead(DPDT_Push_Button_Pin);
-  //Serial.println("DPDT Button State : "+String(DPDT_STATE));
-
-  if (DPDT_STATE == 1) 
-  { 
-    Serial.println("Hello Pal");
-  }
- 
+  Serial.println("DPDT Button State : "+String(DPDT_STATE));
 
 }
