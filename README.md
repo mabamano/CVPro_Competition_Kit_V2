@@ -36,15 +36,6 @@ The CV Pro Competition kit is crafted for the future engineers who compete in va
 
 The PCB contains an ESP32 as a controller. It is a versatile microcontroller, combining a dual-core processor with built-in Wi-Fi and Bluetooth capabilities. It's highly efficient and ideal for various IoT applications. Its dual-core architecture supports multitasking, making it efficient for both processing and communication tasks. With a wide range of GPIO pins, it's flexible for interfacing with sensors, motors, and other devices. Additionally, its low power consumption and compatibility with numerous development platforms make it a popular choice for IoT projects and beyond. __Important Note:__ To install the ESP32 board in your Arduino IDE, follow the [link](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
 
-### TCA9548A I2C 8 Channel Multiplexer Board
-
-<p align="center" width="100%">
-    <img  width="40%" src="Docs/Images/Multiplexer.png" />
-</p>
-
-The TCA9548A is an I2C (Inter-Integrated Circuit) 8-channel multiplexer board. It is designed to expand the capability of I2C communication by allowing multiple I2C devices with the same address to be used on a single I2C bus.
-Utilizing the TCA9548A will help resolve the issue of having two I2C color sensors with the same address. By using the multiplexer to direct the communication to the correct sensor via the designated channel, you can effectively work with both sensors in your project without address conflicts.
-
 ### I2C Color Sensor
 
 <p align="center" width="100%">
@@ -87,12 +78,12 @@ The HC-SR04 Ultrasonic Sensor is a widely used device for measuring distances ba
 |***SM (Servo Motor)***|  ***USB 3.0***  |  ***4***  |  ***27***  | 
 |***RUS & LUS (Right & Left Ultrasonic Sensors)***|    ***USB 3.0***    |  ***5***  |  ***Right-2,23 and Left-5,18***   |
 |***FUS (Front Ultrasonic Sensor)***|    ***USB 2.0***    |  ***6***  | ***12,4***  | 
-|***MUX (Multiplexer)***|   ***USB 2.0***    |  ***7*** |  ***22,21***   | ***-*** |
+|***CS (Color Sensor)***|   ***USB 2.0***    |  ***7*** |  ***22,21***   | ***-*** |
 |***RGB LED***|  ***-***  |  ***-***  |    ***15***   | ***-*** |
 |***NSLEEP For Motor***|  ***-***  |  ***-***  |    ***13***   | ***-*** |
 |***Battery Voltage Reading***|  ***-***  |  ***-***  |  ***39***  | ***-*** |
 |***DPDT Push Button***|  ***-***  |  ***-***  |  ***34***  | ***-*** |
-|***Optical Encoder***|  ***-***  |  ***-***  |  ***36***  | ***-*** |
+|***Optical Encoder***|  ***-***  |  ***-***  |  ***36***  | ***-*** | 
 
 
 Kindly refer to the pins provided in the [above table](#Table) for programming firmware.
@@ -104,18 +95,27 @@ Kindly refer to the pins provided in the [above table](#Table) for programming f
 4. When adjusting the angle, stay within a **20-degree** range to the __left and right of the center angle (100 degrees)__, which allows movement between **80** and **120 degrees**. Deviating beyond these limits may result in damage to the product.
 5. Handle with care to avoid wire wear.
 
-### Libraries
+### Libraries to be installed.
 
 - #include <ESP32Servo.h>
 - #include <NewPing.h>
 - #include <Wire.h>
-- #include "Adafruit_TCS34725.h"
+- #include <Adafruit_TCS34725.h>
+- #include <FastLED.h>
+
+### Libraries Versions.
+
+1. Go to Board Manager and type esp32, Select Version 2.0.17
+2. Go to Library Manager and type NewPing, Select Version 1.9.7
+3. Go to Library Manager and type FastLED, Select Version 3.7.0
+4. Go to Library Manager and type ESP32Servo, Select Version 1.2.1
+5. Go to Library Manager and type Adafruit TCS34725, Select Version 1.4.4 
 
 **`Note`**: Consider exploring additional compatible libraries as well.
 
 # Upload Firmware to the Kit
 
-To start, upload the `CVPRO-Competition-Firmware` into the competition kit, from the Firmware folder in your `CVPRO-Competition-Kit` repository.
+To start, upload the `CVPRO_Competition_Firmware` into the competition kit, from the Firmware folder in your `CVPRO_Competition_Kit` repository.
 
 ## How to connect the Phone and CV Pro Competition kit using connecting cable?
 
