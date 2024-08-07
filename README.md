@@ -105,11 +105,11 @@ Kindly refer to the pins provided in the [above table](#Table) for programming f
 
 ### Libraries Versions.
 
-1. Go to Board Manager and type esp32, Select Version 2.0.17
-2. Go to Library Manager and type NewPing, Select Version 1.9.7
-3. Go to Library Manager and type FastLED, Select Version 3.7.0
-4. Go to Library Manager and type ESP32Servo, Select Version 1.2.1
-5. Go to Library Manager and type Adafruit TCS34725, Select Version 1.4.4 
+1. Go to Board Manager and type **esp32**, Select Version 2.0.17
+2. Go to Library Manager and type **NewPing**, Select Version 1.9.7
+3. Go to Library Manager and type **FastLED**, Select Version 3.7.0
+4. Go to Library Manager and type **ESP32Servo**, Select Version 1.2.1
+5. Go to Library Manager and type **Adafruit TCS34725**, Select Version 1.4.4 
 
 **`Note`**: Consider exploring additional compatible libraries as well.
 
