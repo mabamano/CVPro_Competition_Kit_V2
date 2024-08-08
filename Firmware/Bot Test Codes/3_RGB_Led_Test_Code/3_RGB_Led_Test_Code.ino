@@ -20,8 +20,9 @@ void rgb_led(int r, int g, int b)
   FastLED.show();
 }
 
-void loop() {
-  // Set the LED color to purple (150, 0, 150) for 1 second
+void rgb_blink()
+{
+   // Set the LED color to purple (150, 0, 150) for 1 second
   rgb_led(255, 0, 0);
   delay(1000);
 
@@ -39,4 +40,9 @@ void loop() {
 
   rgb_led(0, 0, 0);
   delay(1000);
+}
+
+void loop() 
+{
+  rgb_blink();
 }

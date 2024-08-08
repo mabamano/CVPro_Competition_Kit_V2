@@ -5,7 +5,6 @@
 
 CRGB leds[NUM_LEDS];
 
-
 char ab;
 int serial_count;
 const int bufferSize = 1;  
