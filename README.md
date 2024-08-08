@@ -1,6 +1,6 @@
 ## COMPETITION KIT
 <p align="center" width="100%">
-    <img width="60%" src="Docs/Images/Fully_Assembled_Kit.png" />
+    <img width="60%" src="Docs/Images/Cvpro_Com_Kit_1.png" />
 </p>
 
 The CV Pro Competition kit is crafted for the future engineers who compete in various competitions, opening the door to the realm of autonomous technology, and enabling exploration in the sphere of cutting-edge innovations.The kit empowers users with functionalities including color sensors and ultrasonic sensors for color detection and obstacle avoidance during navigation. It can effectively monitor its surroundings using these sensors and even follow a specified color path when programmed accordingly. Our CV Pro competition kit seamlessly integrates with Android mobile phones for optimal compatibility and performance.
@@ -16,7 +16,7 @@ The CV Pro Competition kit is crafted for the future engineers who compete in va
 
 ## Mechanical Parts
 <p align="center" width="100%">
-    <img width="80%" src="Docs/Images/Mechanical_Parts.png" />
+    <img width="80%" src="Docs/Images/Cvpro_Com_Kit_2.png" />
 </p>
 
 ## Hardware - PCB Ports and Usages
