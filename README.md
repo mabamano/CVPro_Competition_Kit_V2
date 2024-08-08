@@ -16,7 +16,7 @@ The CV Pro Competition kit is crafted for the future engineers who compete in va
 
 ## Mechanical Parts
 <p align="center" width="100%">
-    <img width="80%" src="Docs/Images/Cvpro_Com_Kit_2.png" />
+    <img width="80%" src="Docs/Images/Cvpro_Com_Kit_2.jpg" />
 </p>
 
 ## Hardware - PCB Ports and Usages
