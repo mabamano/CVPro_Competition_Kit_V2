@@ -95,7 +95,22 @@ Kindly refer to the pins provided in the [above table](#Table) for programming f
 4. When adjusting the angle, stay within a **20-degree** range to the __left and right of the center angle (100 degrees)__, which allows movement between **80** and **120 degrees**. Deviating beyond these limits may result in damage to the product.
 5. Handle with care to avoid wire wear.
 
-### Libraries to be installed.
+# Software Requirements:
+
+### For Windows:
+1. Go to Arduino Website https://www.arduino.cc/en/software. Click **Windows Win 10 and newer, 64 bits** and download the Arduino IDE application and Install.
+2. If you face any CP210x Driver Issue, go to this silicon labs website https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads. Click **CP210x Universal Windows Driver** and download the driver and Install.
+
+### For MAC OS:
+1. Go to Arduino Website https://www.arduino.cc/en/software. Click **macOS Intel, 10.15: “Catalina” or newer, 64 bits** and download the Arduino IDE application and Install.
+2. If you face any CP210x Driver Issue, go to this silicon labs website https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads and Click **CP210x VCP Mac OSX Driver** and download the driver and Install.
+
+### For Linux:
+1. Go to Arduino Website https://www.arduino.cc/en/software. Click **Linux AppImage 64 bits (X86-64)** and download the Arduino IDE application and Install.
+2. If you face any CP210x Driver Issue, go to this silicon labs website https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads and Click **Linux 2.6.x VCP Revision History** and download the driver and Install.
+
+
+### Libraries to be installed in Arduino IDE.
 1. Go to Board Manager and type `esp32`, Select Version `2.0.17` and install.
 2. Go to Library Manager and type `NewPing`, Select Version `1.9.7` and install.
 3. Go to Library Manager and type `FastLED`, Select Version `3.7.0` and install.
