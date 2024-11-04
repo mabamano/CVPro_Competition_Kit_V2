@@ -99,6 +99,10 @@ Kindly refer to the pins provided in the [above table](#Table) for programming f
 
 # Software Requirements:
 
+### Download and install Arduino IDE: 
+
+Follow the instructions in this link: https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE.
+
 ### For Windows:
 1. Go to Arduino Website https://www.arduino.cc/en/software. Click **Windows Win 10 and newer, 64 bits** and download the Arduino IDE application and Install.
 2. If you encounter any CP210x driver issues, go to the silicon labs website https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads. Click **CP210x Universal Windows Driver** and download the driver and Install.
@@ -109,14 +113,22 @@ Kindly refer to the pins provided in the [above table](#Table) for programming f
 2. If you encounter any CP210x driver issues, go to the silicon labs website https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads and Click **CP210x VCP Mac OSX Driver** and download the driver and Install.
 3. Open the Arduino IDE application, select "**Tools**" then go to "Upload Speed" and set the upload speed to "115200".
 
+### For Ubuntu Linux OS:
+1. Go to Arduino Website https://www.arduino.cc/en/software. Click **Linux AppImage 64 bits (X86-64)** and download the Arduino IDE AppImage file.
+2. Find the AppImage file in your file manager.
+3. Make the AppImage file executable:
+    1. Right-click the file.
+    2. Choose Properties,
+    3. Select the Permissions.
+    4. Tick the Allow executing file as program box.
+4. Double-click the AppImage file to launch Arduino IDE.
+
 ### Libraries to be installed in Arduino IDE.
 1. Go to Board Manager and type `esp32`, Select Version `2.0.17` and install.
 2. Go to Library Manager and type `NewPing`, Select Version `1.9.7` and install.
 3. Go to Library Manager and type `FastLED`, Select Version `3.7.0` and install.
 4. Go to Library Manager and type `ESP32Servo`, Select Version `1.2.1` and install.
 5. Go to Library Manager and type `Adafruit TCS34725`, Select Version `1.4.4`and install.
-
-**`Note`**: Consider exploring additional compatible libraries as well.
 
 # Upload Firmware to the Kit
 
