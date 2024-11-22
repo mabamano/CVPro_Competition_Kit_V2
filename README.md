@@ -23,7 +23,7 @@ The CV Pro Competition kit is crafted for the future engineers who compete in va
 
 ## Hardware - PCB Ports and Usages
 <p align="center" width="100%">
-    <img width="80%" src="Docs/Images/PCB_Port_and_Usages-Top-view.png" />
+    <img width="80%" src="Docs/Images/PCB_Cable _Connection.png" />
 </p>
 
 ## Modules and components
