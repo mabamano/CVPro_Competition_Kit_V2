@@ -99,6 +99,51 @@ Kindly refer to the pins provided in the [above table](#Table) for programming f
 
 # Software Requirements:
 
+### CVPRO Competition Kit: Installation and Setup Guide - Windows: 
+1. Download the Source Code
+    1. Navigate to CVPro Competition Kit GitHub Repository.
+    2. Download the repository as a ZIP file.
+    3. Extract the contents of the ZIP file to your User Profile Path (e.g., C:\Users\<YourUsername>).
+2. Launch the Application
+    1. Locate and double-click the cvpro file in the extracted folder.
+    2. A security dialog box will appear.
+    3. Click More Info.
+    4. Select Run Anyway to proceed.
+3. Library Installation
+    1. Upon launching, the CVPRO terminal opens with the title "CVPRO Competition Kit".
+    2. The terminal will begin installing the necessary libraries for the application.
+    3. Wait for the installation to complete. The terminal will automatically redirect you to the test codes folder once the process finishes.
+4. Setup for Arduino Users
+    1. If you are a new Arduino user, ensure the ESP32 boards are installed in your Arduino IDE:
+    2. Open the Arduino IDE.
+    3. Go to File > Preferences.
+    4. Add the following URL to the Additional Board Manager URLs: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json;https://dl.espressif.com/dl/package_esp32_index.json
+    5. Navigate to Tools > Board > Boards Manager.
+    6. Search for ESP32 and install the required boards.
+Once the setup is complete, select and upload the test code of your choice to your ESP32 board.
+
+### CVPRO Competition Kit: Installation and Setup Guide (Mac)
+1. Download the Source Code
+    1. Navigate to CVPro Competition Kit GitHub Repository.
+    2. Download the repository as a ZIP file.
+    3. Extract the contents of the ZIP file to your Home directory (e.g., $HOME).
+2. Launch the Application
+    1. Open a terminal window.
+    2. Navigate to the extracted folder and launch the application using one of the following commands:or
+        **./cvpro.zsh**
+        **source cvpro.zsh**
+    3. No security dialogs will appear.
+3. Library Installation
+    1. The CVPRO terminal opens with the title "CVPRO Competition Kit".
+    2. The terminal will begin installing the necessary libraries for the application.
+    3. Wait for the installation to complete. The terminal will automatically redirect you to the test codes folder once the process finishes.
+4. Setup for Arduino Users
+    1. Follow these steps to install the ESP32 boards:
+    2. Open the Arduino IDE.
+    3. Go to Arduino > Preferences.
+    4. Add the following URL to the Additional Board Manager URLs: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json;https://dl.espressif.com/dl/package_esp32_index.json
+Once the setup is complete, select and upload the test code of your choice to your ESP32 board.
+
 ### Download and install Arduino IDE: 
 
 Follow the instructions in this link: https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE.
