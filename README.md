@@ -133,7 +133,7 @@ Once the setup is complete, select and upload the test code of your choice to yo
         **./cvpro.zsh** or **source cvpro.zsh**
     3. No security dialogs will appear.
 3. Library Installation.
-    1. The CVPRO terminal opens with the title "CVPRO Competition Kit".
+    1. The CVPRO terminal opens with the title **"CVPRO Competition Kit"**.
     2. The terminal will begin installing the necessary libraries for the application.
     3. Wait for the installation to complete. The terminal will automatically redirect you to the test codes folder once the process finishes.
 4. Setup for Arduino Users.
