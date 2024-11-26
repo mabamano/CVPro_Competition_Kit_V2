@@ -33,7 +33,7 @@ The CV Pro Competition kit is crafted for the future engineers who compete in va
 ### ESP32 Board
 
 <p align="center" width="100%">
-    <img  width="40%" src="Docs/Images/ESP32_Board.png" />
+    <img  width="20%" src="Docs/Images/ESP32_Board.png" />
 </a>
 
 The PCB contains an ESP32 as a controller. It is a versatile microcontroller, combining a dual-core processor with built-in Wi-Fi and Bluetooth capabilities. It's highly efficient and ideal for various IoT applications. Its dual-core architecture supports multitasking, making it efficient for both processing and communication tasks. With a wide range of GPIO pins, it's flexible for interfacing with sensors, motors, and other devices. Additionally, its low power consumption and compatibility with numerous development platforms make it a popular choice for IoT projects and beyond. __Important Note:__ To install the ESP32 board in your Arduino IDE, follow the [link](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
@@ -41,7 +41,7 @@ The PCB contains an ESP32 as a controller. It is a versatile microcontroller, co
 ### I2C Color Sensor
 
 <p align="center" width="100%">
-    <img  width="40%" src="Docs/Images/Color_Sensor.png" />
+    <img  width="20%" src="Docs/Images/Color_Sensor.png" />
 </a>
 
 An I2C color sensor is a device that detects and measures colors using the I2C communication protocol. It typically integrates various photodiodes, filters, and electronics to accurately perceive and differentiate different colors. By utilizing an I2C color sensor in this project, you can detect and measure colors accurately, enabling a wide range of applications that require color analysis and processing.
@@ -51,7 +51,7 @@ Applications: I2C color sensors find applications in a variety of fields, includ
 ### HC - SR04 Ultrasonic Sensor
 
 <p align="center" width="100%">
-    <img  width="40%" src="Docs/Images/Ultrasonic_Sensor.png" />
+    <img  width="20%" src="Docs/Images/Ultrasonic_Sensor.png" />
 </a>
 
 The HC-SR04 Ultrasonic Sensor is a widely used device for measuring distances based on the time it takes for ultrasonic waves to bounce back from an object. It consists of a transmitter that emits ultrasonic waves and a receiver that detects the waves. By calculating the time between emission and reception, the sensor determines the distance from the object. With a measurement range of 2 cm to 400 cm, Easy to interface with microcontrollers, the HC-SR04 sensor offers reliable and accurate distance measurements, making it a popular choice in the electronics and robotics communities.
