@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVPro Competition Kit</title>
+    <link rel="icon" href="Docs\Images\favicon.ico" type="image/x-icon"> <!-- Favicon link -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #deefff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 20px;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, rgba(16, 126, 253, 1), rgba(147, 54, 239, 1));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+        }
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 85vh; /* Adjusted height to fill viewport */
+            margin-top: -100px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        th, td {
+            border: 1px solid #000;
+            text-align: center;
+            padding: 20px;
+        }
+        th {
+            background-color: rgb(1,134,255);
+            color: white;
+            font-size: 20px;
+        }
+        th:nth-child(3) {
+            background-color: #deefff;
+        }
+        .noborder {
+            border: none; /* No border for this column */
+        }
+        .info-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative; /* Position relative for tooltip positioning */
+        }
+        .info-icon i {
+            font-size: 18px; /* Adjust icon size */
+            color: #333; /* Adjust icon color */
+            cursor: pointer; /* Pointer cursor for better UX */
+        }
+        .tooltip {
+            visibility: hidden;
+            width: 300px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            left: calc(100% + 10px); /* Position to the right of the icon */
+            transform: translateY(-50%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .info-icon:hover .tooltip {
+            visibility: visible;
+            opacity: 1;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 90px;
+        }
+        .icon {
+            font-size: 24px;
+            margin: 0 20px;
+            color: #333; /* Adjust icon color */
+        }
+        .icon:hover {
+            color: #007bff; /* Change icon color on hover */
+            transform: scale(1.1); /* Example: Increase icon size on hover */
+        }
+        .info-icon:hover i {
+            color: #ff0000; /* Change icon color on hover */
+            transform: scale(1.1); /* Example: Increase icon size on hover */
+        }
+
+        /* Styles for the popup */
+        .popup {
+            display: none; /* Hidden by default */
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            padding: 20px;
+            background: white;
+            border: 2px solid #007bff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+        .popup input[type="password"] {
+            width: calc(100% - 22px); /* Adjusted width to fit with eye icon */
+            padding: 10px;
+            border: 2px solid #007bff;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            position: relative; /* Position relative for eye icon */
+        }
+
+        .popup .eye-icon {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            font-size: 20px; /* Adjust size as needed */
+        }
+        .popup .eye-icon img {
+            width: 20px;
+            height: 20px;
+        }
+        .popup button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .popup button:hover {
+            background-color: #0056b3;
+        }
+        .message {
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .success {
+            color: rgb(5, 174, 5);
+        }
+        .error {
+            color: red;
+        }
+        .overlay {
+            display: none; /* Hidden by default */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+        .nunito-font {
+            font-family: "Nunito", Arial, sans-serif;
+            font-size: 2rem; /* Adjust size as needed */
+            font-weight:bolder; /* Adjust weight: light, normal, bold, etc. */
+            color: #333;
+        }
+    </style>
+    <!-- Font Awesome CSS link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-...">
+</head>
+<body>
+    <header>
+        <img src="Docs\Images\cvpro.png" alt="CVPro Logo" style="max-width: 12%; height: auto;">
+        <h1 class="nunito-font"><b>Competition Kit</b></h1>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <th>Pre-Requisites</th>
+                <th>Download Links</th>
+                <th class="noborder"></th>
+            </tr>
+            <tr>
+                <td><b>Installer Utility for Windows OS</b></td>
+                <td><a href="#" class="protected-link" data-link="https://drive.google.com/file/d/1Fw-Itr8-toF6E3xcqIZ9BCTNQGOjto1s/view?usp=sharing">Click here to download</a></td>
+                <td class="noborder info-icon"><a href="https://youtu.be/Uwq_vSSm7A0?si=DDK8tXVfonePT35f" target="_blank"><i class="fas fa-exclamation" title="Windows"></i></a><span class="tooltip">The downloaded file should be extracted in the User-Profile path <br><br>Ex: <b>C:\Users\John</b></span></td>
+            </tr>
+            <tr>
+                <td><b>Installer Utility for Linux OS</b></td>
+                <td><a href="#" class="protected-link" data-link="https://drive.google.com/file/d/1wjs7G02byoGYk6tIZ_C42jbyosTNXuxl/view?usp=sharing">Click here to download</a></td>
+                <td class="noborder info-icon"><a href="https://youtu.be/GAq5rrS1K4Q?si=lVp6amhkGpHQIlU6" target="_blank"><i class="fas fa-exclamation" title="Linux"></i></a><span class="tooltip">The downloaded file should be extracted in the Home Directory <br><br>Ex: <b>/home/cvpro</b> <i>or</i> <b>ubuntu@cvpro : ~$</b></span></td>
+            </tr>
+            <tr>
+                <td><b>Installer Utility for MAC OS</b></td>
+                <td><a href="#" class="protected-link" data-link="https://drive.google.com/file/d/1wjs7G02byoGYk6tIZ_C42jbyosTNXuxl/view?usp=sharing">Click here to download</a></td>
+                <td class="noborder info-icon"><i class="fas fa-exclamation" title="Mac"></i><span class="tooltip">The downloaded file should be extracted in the Home Directory <br><br>Ex: <b>/Users/MyMac</b> <i>or</i> <b>macbook@MacBook ~ %</b></span></td>
+            </tr>
+        </table>
+
+        <div class="icons">
+            <a href="https://www.facebook.com/meritusai/" target="_blank"><i class="fab fa-facebook-f icon"></i></a>
+            <a href="https://www.instagram.com/meritus.ai/" target="_blank"><i class="fab fa-instagram icon"></i></a>
+            <a href="https://x.com/MeritusAI" target="_blank"><i class="fab fa-x-twitter icon"></i></a>
+            <a href="https://www.linkedin.com/company/meritusai/" target="_blank"><i class="fab fa-linkedin-in icon"></i></a>
+            <a href="https://www.youtube.com/@meritusai6766" target="_blank"><i class="fab fa-youtube icon"></i></a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 CVPro. All rights reserved.</p>
+    </footer>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="popup">
+        <div style="position: relative;">
+            <input type="password" id="passkey" placeholder="Enter Passkey">
+        </div>
+        <button onclick="validatePasskey()">Submit</button>
+        <div id="message" class="message"></div>
+    </div>
+
+    <script>
+        const correctPasskey = 'cvprocomp@25';
+
+        function showPopup(link) {
+            document.getElementById('popup').setAttribute('data-link', link);
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById('popup').style.display = 'block';
+        }
+
+        function hidePopup() {
+            document.getElementById('overlay').style.display = 'none';
+            document.getElementById('popup').style.display = 'none';
+        }
+
+        function validatePasskey() {
+            const passkey = document.getElementById('passkey').value;
+            const messageElement = document.getElementById('message');
+            const link = document.getElementById('popup').getAttribute('data-link');
+
+            if (passkey === correctPasskey) {
+                messageElement.textContent = 'Success';
+                messageElement.className = 'message success';
+                setTimeout(() => {
+                    window.location.href = link;
+                }, 1000);
+            } else {
+                messageElement.textContent = 'Wrong Passkey';
+                messageElement.className = 'message error';
+            }
+        }
+
+        document.getElementById('overlay').addEventListener('click', hidePopup);
+
+        document.querySelectorAll('.protected-link').forEach(linkElement => {
+            linkElement.addEventListener('click', (e) => {
+                e.preventDefault();
+                const link = linkElement.getAttribute('data-link');
+                showPopup(link);
+            });
+        });
+
+        document.getElementById('passkey').addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                validatePasskey();
+            }
+        });
+    </script>
+</body>
+</html>
