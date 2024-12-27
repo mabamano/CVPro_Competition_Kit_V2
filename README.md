@@ -100,6 +100,9 @@ Kindly refer to the pins provided in the [above table](#Table) for programming f
 # Software Requirements:
 
 ### CVPRO Competition Kit: Installation and Setup Guide - Windows: 
+
+Use this link for software installation: https://drive.google.com/file/d/1Fw-Itr8-toF6E3xcqIZ9BCTNQGOjto1s/view?usp=sharing
+
 1. Download the Source Code.
     1. Navigate to CVPro Competition Kit GitHub Repository.
     2. Download the repository as a ZIP file.
@@ -123,6 +126,9 @@ Kindly refer to the pins provided in the [above table](#Table) for programming f
 Once the setup is complete, select and upload the test code of your choice to your ESP32 board.
 
 ### CVPRO Competition Kit: Installation and Setup Guide (Mac)
+
+Use this link for software installation: https://drive.google.com/file/d/1wjs7G02byoGYk6tIZ_C42jbyosTNXuxl/view?usp=sharing
+
 1. Download the Source Code.
     1. Navigate to CVPro Competition Kit GitHub Repository.
     2. Download the repository as a ZIP file.
