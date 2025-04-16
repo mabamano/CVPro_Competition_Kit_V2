@@ -1,13 +1,7 @@
-## COMPETITION KIT
-<p align="center" width="100%">
-    <img width="60%" src="Docs/Images/Cvpro_Com_Kit_1.png" />
-</p>
-
-The CV Pro Competition kit is crafted for the future engineers who compete in various competitions, opening the door to the realm of autonomous technology, and enabling exploration in the sphere of cutting-edge innovations.The kit empowers users with functionalities including color sensors and ultrasonic sensors for color detection and obstacle avoidance during navigation. It can effectively monitor its surroundings using these sensors and even follow a specified color path when programmed accordingly. Our CV Pro competition kit seamlessly integrates with Android mobile phones for optimal compatibility and performance.
-
-## You can download the APK from this [link](https://drive.google.com/drive/u/0/folders/1uq9PmImZiYLncMbVU259YYULkfPL1bhg)
-
 # 🤖 CVPro Competition Kit
+<p align="center" width="100%">
+    <img width="60%" src="Documents/Images/Cvpro_Com_Kit.png" />
+</p>
 
 ---
 
@@ -16,6 +10,9 @@ The CV Pro Competition kit is crafted for the future engineers who compete in va
 The **CVPro Competition Kit** is a 4-wheel robot DIY kit tailored for high-performance in AI and robotics competitions, especially aligned with the **WRO (World Robot Olympiad)** Future Engineers category. With modular hardware and AI-driven capabilities, this kit allows participants to build, program, and train their robot to tackle real-world tasks using vision and sensor data.
 
 ---
+<p align="center" width="100%">
+    <img width="60%" src="Documents/Images/comp_kit.jpg" />
+</p>
 
 ## 🛠️ Hardware Provided
 
@@ -61,6 +58,8 @@ The CVPro kit comes with full software support for both programming and competit
    - An Android mobile application designed specifically for WRO Round 2.  
    - It features an object detection model capable of identifying red and green boxes.  
    - Additionally, it supports custom object detection and image classification capabilities.
+
+   ### You can download the APK from this [link](https://drive.google.com/drive/u/0/folders/1uq9PmImZiYLncMbVU259YYULkfPL1bhg)
 
 ---
 
@@ -116,6 +115,10 @@ The CVPro kit comes with full software support for both programming and competit
 | Optical Encoder                         | -         | -       | 36                 |
 
 ---
+
+<p align="center" width="100%">
+    <img width="60%" src="Documents/Images/pcb_conn.png" />
+</p>
 
 ### 📱 Connecting Mobile Phone to CVPro Controller
 
