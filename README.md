@@ -41,7 +41,7 @@ This robust kit includes all essential hardware components to build and operate 
 7. **Programmable RGB LED**  
    Visual feedback through color coding—useful for status indication, error alerts, and task confirmation.
 
-8. **Mobile Phone Holder**  
+8. **Mobile Phone Holder and OTG Cable**  
    Designed to securely hold a mobile device for image processing, remote control, or augmented vision applications.
 
 ---
@@ -71,9 +71,9 @@ The CVPro kit comes with full software support for both programming and competit
    Charging is enabled only when the robot is powered OFF to ensure safety and optimal charging efficiency.
 
 2. **Charging Indicators:**  
-   - A green LED indicates that the robot is fully charged (only visible when the bot is OFF).  
-   - A red LED indicates that the battery is currently charging.  
-   - Ensure the robot can run for approximately 50 minutes after a full charge.
+   - A **green LED** indicates that the robot is fully charged (only visible when the bot is OFF).  
+   - A **red LED** indicates that the battery is currently charging.  
+   - Ensure the robot can run for approximately **50 minutes** after a full charge.
 
 3. **Battery Specification:**  
    Equipped with a 3.7V, 3200mAh Li-ion single-cell battery for extended operation time.
