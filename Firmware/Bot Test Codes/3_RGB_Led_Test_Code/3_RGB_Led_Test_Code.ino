@@ -1,7 +1,6 @@
 // Kindly Check whether the Library Files are installed in Library Manager.
 
 #include <FastLED.h>
-
 #define LED_PIN 15
 #define NUM_LEDS 1
 

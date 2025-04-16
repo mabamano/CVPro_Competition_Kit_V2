@@ -7,197 +7,149 @@ The CV Pro Competition kit is crafted for the future engineers who compete in va
 
 ## You can download the APK from this [link](https://drive.google.com/drive/u/0/folders/1uq9PmImZiYLncMbVU259YYULkfPL1bhg)
 
-## Get the source code
+# 🤖 CVPro Competition Kit
 
-- You can download the repository as a [zip file](https://github.com/robotixdevteam/CVPro_Competition_Kit/archive/refs/heads/master.zip) and extract it into a folder of your choice.
-- You can clone the CVPRO-Competition-Kit repository from GitHub with the following command:
+## 🔧 What is the CVPro Competition Kit?
 
-    ```bash
-    git clone https://github.com/robotixdevteam/CVPro_Competition_Kit
-    ```
+The **CVPro Competition Kit** is a 4-wheel robot DIY kit tailored for high-performance in AI and robotics competitions, especially aligned with the **WRO (World Robot Olympiad) Future Engineers** category. With modular hardware and AI-driven capabilities, this kit allows participants to build, program, and train their robot to tackle real-world tasks using vision and sensor data.
 
-## Mechanical Parts
-<p align="center" width="100%">
-    <img width="80%" src="Docs/Images/Cvpro_Com_Kit_2.jpg" />
-</p>
+---
 
-## Hardware - PCB Ports and Usages
-<p align="center" width="100%">
-    <img width="80%" src="Docs/Images/PCB_Cable _Connection.png" />
-</p>
+## 🛠️ Hardware Provided
 
-## Modules and components
+This robust kit includes all essential components to build and operate a fully functional AI-powered robot:
 
-**`Note`**: For the board installation and setup in the [Arduino IDE](https://www.arduino.cc/en/software).
+1. **CVPro Controller (ESP32-based)**  
+   - High-performance microcontroller with Wi-Fi and Bluetooth support for real-time AI and sensor integration.
 
-### ESP32 Board
+2. **Servo Motor with Ackerman Steering System**  
+   - Enables precise directional control, emulating real-world vehicle steering.
 
-<p align="center" width="100%">
-    <img  width="20%" src="Docs/Images/ESP32_Board.png" />
-</a>
+3. **DC Motor with Optical Encoder**  
+   - Controls forward and backward movement with feedback on speed and distance.
 
-The PCB contains an ESP32 as a controller. It is a versatile microcontroller, combining a dual-core processor with built-in Wi-Fi and Bluetooth capabilities. It's highly efficient and ideal for various IoT applications. Its dual-core architecture supports multitasking, making it efficient for both processing and communication tasks. With a wide range of GPIO pins, it's flexible for interfacing with sensors, motors, and other devices. Additionally, its low power consumption and compatibility with numerous development platforms make it a popular choice for IoT projects and beyond. __Important Note:__ To install the ESP32 board in your Arduino IDE, follow the [link](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
+4. **Color Sensor**  
+   - Detects colored zones or lines on the ground.
 
-### I2C Color Sensor
+5. **Six Ultrasonic Sensors**  
+   - **Front (3)**: Obstacle detection  
+   - **Rear (1)**: Reverse movement safety  
+   - **Left (1) & Right (1)**: Side obstacle detection
 
-<p align="center" width="100%">
-    <img  width="20%" src="Docs/Images/Color_Sensor.png" />
-</a>
+6. **Push Button**  
+   - Used to initiate robot tasks and programs.
 
-An I2C color sensor is a device that detects and measures colors using the I2C communication protocol. It typically integrates various photodiodes, filters, and electronics to accurately perceive and differentiate different colors. By utilizing an I2C color sensor in this project, you can detect and measure colors accurately, enabling a wide range of applications that require color analysis and processing.
+7. **Programmable RGB LED**  
+   - Visual status indication via customizable colors.
 
-Applications: I2C color sensors find applications in a variety of fields, including industrial automation, consumer electronics, robotics, healthcare, automotive, and more. They are used for color sorting, color matching, display calibration, and various other color-related applications.
+8. **Mobile Phone Holder**  
+   - Holds a smartphone for image processing or remote control tasks.
 
-### HC - SR04 Ultrasonic Sensor
+---
 
-<p align="center" width="100%">
-    <img  width="20%" src="Docs/Images/Ultrasonic_Sensor.png" />
-</a>
+## 💻 Software Support
 
-The HC-SR04 Ultrasonic Sensor is a widely used device for measuring distances based on the time it takes for ultrasonic waves to bounce back from an object. It consists of a transmitter that emits ultrasonic waves and a receiver that detects the waves. By calculating the time between emission and reception, the sensor determines the distance from the object. With a measurement range of 2 cm to 400 cm, Easy to interface with microcontrollers, the HC-SR04 sensor offers reliable and accurate distance measurements, making it a popular choice in the electronics and robotics communities.
+1. **Arduino IDE with Required Libraries**  
+   - Easy-to-use environment for programming the CVPro bot.  
+   - Supports object detection, motor control, and sensor interfacing.
 
-### PCB inbuilt functions
+2. **Android Mobile App for WRO Round 2**  
+   - AI-driven object detection for red and green boxes.  
+   - Supports custom object detection and image classification.
 
-1. Charging and discharging - _Charging will only be enabled if the bot is in `OFF` state_.
-2. **`Green LED`** will indicate when the bot is fully charge in off state. (Ensure that bot runs for 50 minutes from time of full charge condition).
-3. Li-ion `3.7V` single cell `3200mAh`.
-4. Power module for powering the board, sensors and motors
-5. Motor driver for controlling the motor
-6. ESP32 micro controller for executing both wired and wireless communications and algorithms. The programming can be done through the given Type-C port. 
+---
 
-<p align="center" width="100%">
-    <img  width="80%" src="Docs/Images/PCB_Bottom_view_and_Type-C-port.png" />
-</p>
+## 🔧 Technical Notes
 
+### About the CVPro Controller
 
-## Port and Pin Details 
-### Table 
-|    ***Function***   |  ***Port Type***    |  ***Port No*** |                      ***GPIO Pins***               |  
-|:-------------------:| :-----------------: | :------------: | :-------------------------------------------: | 
-|***Motor (Battery Operated Motor)***|    ***USB 3.0***    |   ***1***      |    ***32,33***     |
-|***F1US & F2US (Front 1 & Front 2 Ultrasonic Sensors)***|    ***USB 3.0***    |  ***2***  |  ***F1-16,14 and F2-25,26***   |
-|***BUS (Back Ultrasonic Sensor)***|***USB 3.0*** |   ***3***      |    ***17,19***    | 
-|***SM (Servo Motor)***|  ***USB 3.0***  |  ***4***  |  ***27***  | 
-|***RUS & LUS (Right & Left Ultrasonic Sensors)***|    ***USB 3.0***    |  ***5***  |  ***Right-2,23 and Left-5,18***   |
-|***FUS (Front Ultrasonic Sensor)***|    ***USB 2.0***    |  ***6***  | ***12,4***  | 
-|***CS (Color Sensor)***|   ***USB 2.0***    |  ***7*** |  ***22,21***   | ***-*** |
-|***RGB LED***|  ***-***  |  ***-***  |    ***15***   | ***-*** |
-|***NSLEEP For Motor***|  ***-***  |  ***-***  |    ***13***   | ***-*** |
-|***Battery Voltage Reading***|  ***-***  |  ***-***  |  ***39***  | ***-*** |
-|***DPDT Push Button***|  ***-***  |  ***-***  |  ***34***  | ***-*** |
-|***Optical Encoder***|  ***-***  |  ***-***  |  ***36***  | ***-*** | 
+- **Charging and Discharging**:  
+  Charging is allowed **only when the robot is OFF** to ensure safety.  
 
+- **Charging Indicators**:  
+  - Green LED = Fully charged (visible only when OFF)  
+  - Red LED = Charging  
+  - Battery lasts ~50 minutes after full charge.
 
-Kindly refer to the pins provided in the [above table](#Table) for programming firmware.
+- **Battery**:  
+  3.7V, 3200mAh Li-ion single-cell
 
-### Constraints
-1. Ensure that every USB cable is connected to its designated port as specified.
-2. The kit's servo angle is fixed at **100 degrees**.
-3. The PCB lacks protective covering; avoid placing conductive materials on it.
-4. When adjusting the angle, stay within a **20-degree** range to the __left and right of the center angle (100 degrees)__, which allows movement between **80** and **120 degrees**. Deviating beyond these limits may result in damage to the product.
-5. Handle with care to avoid wire wear.
+- **Power Module**:  
+  Provides power to the board, sensors, and motors.
 
-# Software Requirements:
+- **Motor Driver**:  
+  Handles control for DC and servo motors.
 
-### CVPRO Competition Kit: Installation and Setup Guide - Windows: 
+- **ESP32 Microcontroller**:  
+  Dual-core with Type-C port, supports wired and wireless programming.
 
-Use this link for software installation: https://drive.google.com/file/d/1Fw-Itr8-toF6E3xcqIZ9BCTNQGOjto1s/view?usp=sharing
+### Servo Configuration
 
-1. Download the Source Code.
-    1. Navigate to CVPro Competition Kit GitHub Repository.
-    2. Download the repository as a ZIP file.
-    3. Extract the contents of the ZIP file to your User Profile Path (e.g., C:\Users\<YourUsername>).
-2. Launch the Application.
-    1. Locate and double-click the **"CVPRO"** file in the extracted folder.
-    2. A security dialog box will appear.
-    3. Click More Info.
-    4. Select Run Anyway to proceed.
-3. Library Installation.
-    1. Upon launching, the CVPRO terminal opens with the title **"CVPRO Competition Kit"**.
-    2. The terminal will begin installing the necessary libraries for the application.
-    3. Wait for the installation to complete. The terminal will automatically redirect you to the test codes folder once the process finishes.
-4. Setup for Arduino Users.
-    1. If you are a new Arduino user, ensure the ESP32 boards are installed in your Arduino IDE:
-    2. Open the Arduino IDE.
-    3. Go to File > Preferences.
-    4. Add the following URL to the Additional Board Manager URLs: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json;https://dl.espressif.com/dl/package_esp32_index.json
-    5. Navigate to Tools > Board > Boards Manager.
-    6. Search for ESP32 and install the required boards.
-Once the setup is complete, select and upload the test code of your choice to your ESP32 board.
+- Default center angle: **100°**  
+- Operable range: **80° to 120°** (±20°)  
+- Going beyond this range may damage the servo.
 
-### CVPRO Competition Kit: Installation and Setup Guide (Mac)
+---
 
-Use this link for software installation: https://drive.google.com/file/d/1wjs7G02byoGYk6tIZ_C42jbyosTNXuxl/view?usp=sharing
+## 📌 Pinouts for CVPro Controller
 
-1. Download the Source Code.
-    1. Navigate to CVPro Competition Kit GitHub Repository.
-    2. Download the repository as a ZIP file.
-    3. Extract the contents of the ZIP file to your Home directory (e.g., $HOME).
-2. Launch the Application.
-    1. Open a terminal window.
-    2. Navigate to the extracted folder and launch the application using one of the following commands:
-        **./cvpro.zsh** or **source cvpro.zsh**
-    3. No security dialogs will appear.
-3. Library Installation.
-    1. The CVPRO terminal opens with the title **"CVPRO Competition Kit"**.
-    2. The terminal will begin installing the necessary libraries for the application.
-    3. Wait for the installation to complete. The terminal will automatically redirect you to the test codes folder once the process finishes.
-4. Setup for Arduino Users.
-    1. Follow these steps to install the ESP32 boards:
-    2. Open the Arduino IDE.
-    3. Go to Arduino > Preferences.
-    4. Add the following URL to the Additional Board Manager URLs: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json;https://dl.espressif.com/dl/package_esp32_index.json
-Once the setup is complete, select and upload the test code of your choice to your ESP32 board.
+| Function                     | Port Type | Port No. | GPIO Pins               |
+|-----------------------------|-----------|----------|--------------------------|
+| DC Motor                    | USB 3.0   | 1        | 32, 33                   |
+| F1US & F2US (Front US)      | USB 3.0   | 2        | F1 - 16,14 / F2 - 25,26  |
+| BUS (Back US)               | USB 3.0   | 3        | 17, 19                   |
+| SM (Servo Motor)            | USB 3.0   | 4        | 27                       |
+| RUS & LUS (Right & Left US) | USB 3.0   | 5        | Right - 2,23 / Left - 5,18|
+| FUS (Front US)              | USB 2.0   | 6        | 12, 4                    |
+| CS (Color Sensor)           | USB 2.0   | 7        | 22, 21                   |
+| RGB LED                     | -         | -        | 15                       |
+| NSLEEP for Motor            | -         | -        | 13                       |
+| Battery Voltage             | -         | -        | 39                       |
+| DPDT Push Button            | -         | -        | 34                       |
+| Optical Encoder             | -         | -        | 36                       |
 
-### Download and install Arduino IDE: 
+---
 
-Follow the instructions in this link: https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE.
+## 🔌 Connecting Mobile Phone to CVPro Controller
 
-### For Windows:
-1. Go to Arduino Website https://www.arduino.cc/en/software. Click **Windows Win 10 and newer, 64 bits** and download the Arduino IDE application and Install.
-2. If you encounter any CP210x driver issues, go to the silicon labs website https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads. Click **CP210x Universal Windows Driver** and download the driver and Install.
-3. Open the Arduino IDE application, select "**Tools**" then go to "Upload Speed" and set the upload speed to "115200".
+To establish a proper connection:
 
-### For MAC OS:
-1. Go to Arduino Website https://www.arduino.cc/en/software. Click **macOS Intel, 10.15: “Catalina” or newer, 64 bits** and download the Arduino IDE application and Install.
-2. If you encounter any CP210x driver issues, go to the silicon labs website https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads and Click **CP210x VCP Mac OSX Driver** and download the driver and Install.
-3. Open the Arduino IDE application, select "**Tools**" then go to "Upload Speed" and set the upload speed to "115200".
+1. **Type-C OTG Cable Setup**:  
+   Connect the female end of the Type-C OTG cable to the male end of the Type-C USB cable.
 
-### For Ubuntu Linux OS:
-1. Go to Arduino Website https://www.arduino.cc/en/software. Click **Linux AppImage 64 bits (X86-64)** and download the Arduino IDE AppImage file.
-2. Find the AppImage file in your file manager.
-3. Make the AppImage file executable:
-    1. Right-click the file.
-    2. Choose Properties,
-    3. Select the Permissions.
-    4. Tick the Allow executing file as program box.
-4. Double-click the AppImage file to launch Arduino IDE.
+2. **To Mobile Phone**:  
+   Plug the Type-C OTG end into your phone.
 
-### Libraries to be installed in Arduino IDE.
-1. Go to Board Manager and type `esp32`, Select Version `2.0.17` and install.
-2. Go to Library Manager and type `NewPing`, Select Version `1.9.7` and install.
-3. Go to Library Manager and type `FastLED`, Select Version `3.7.0` and install.
-4. Go to Library Manager and type `ESP32Servo`, Select Version `1.2.1` and install.
-5. Go to Library Manager and type `Adafruit TCS34725`, Select Version `1.4.4`and install.
+3. **To CVPro Controller**:  
+   Plug the USB Type-C end into the controller's Type-C port.
 
-# Upload Firmware to the Kit
+4. **Grant Permissions**:  
+   Your phone will prompt for permission. Tap **“Allow”** to enable the connection.
 
-To start, upload the `CVPRO_Competition_Firmware` into the competition kit, from the Firmware folder in your `CVPRO_Competition_Kit` repository.
+---
 
-## How to connect the Phone and CV Pro Competition kit using connecting cable?
+## 🧪 Working Procedure
 
-1. Connect the female-end of Type-C-OTG cable with male-end of Type-C-USB cable to establish a link.
-2. Connect the Type-C end of Type-C-OTG cable with phone.
-3. Connect the Type-C end of Type-C-USB cable with Type-C port on the PCB board.
-4. If the connection process is correct, it will seek for permissions on your phone.
+### Step 1: Download Bot Test Codes  
+🔗 [CVPro GitHub Repository](https://github.com/robotixdevteam/CVPro_Competition_Kit/tree/main)
 
-## Contact
+### Step 2: Install Arduino IDE
 
-- Contact us via [Email](mailto:support@meritus.ai)
+Follow: 🔗 [Arduino Installation Guide](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
 
+#### For Windows:
+- Visit: https://www.arduino.cc/en/software  
+- Download: **"Windows Win 10 and newer, 64 bits"**  
+- Set **Upload Speed** to **115200** in Tools menu
 
+#### For macOS:
+- Visit: https://www.arduino.cc/en/software  
+- Download: **"macOS Intel, 10.15 'Catalina' or newer"**  
+- Set **Upload Speed** to **115200**
 
-
-
-
-
+#### For Ubuntu/Linux:
+- Visit: https://www.arduino.cc/en/software  
+- Download: **Linux AppImage (X86-64)**  
+- Make executable:
+  ```bash
+  chmod +x <filename>.AppImage

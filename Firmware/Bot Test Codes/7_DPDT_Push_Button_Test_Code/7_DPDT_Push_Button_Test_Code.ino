@@ -1,5 +1,4 @@
 // Kindly Check whether the Library Files are installed in Library Manager.
-
 #define DPDT_Push_Button_Pin 34
 
 bool DPDT_STATE = 0; //Initial False state.

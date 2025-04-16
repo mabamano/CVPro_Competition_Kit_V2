@@ -2,7 +2,6 @@
 
 #define LED_PIN 15
 #define NUM_LEDS 1
-
 CRGB leds[NUM_LEDS];
 
 char ab;

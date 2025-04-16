@@ -1,7 +1,6 @@
 // Kindly Check whether the Library Files are installed in Library Manager.
 #include <ESP32Servo.h>
 #define SERVO_PIN 27 
-
 Servo servo;
 
 // Set the bot servo angles
@@ -16,7 +15,7 @@ void setup() {
 }
 
 void moveServoTo(int angle) {
-  angle = constrain(angle, 75, 125); // Constrain the angle between 70 and 130 degrees
+  angle = constrain(angle, 75, 125); // Constrain the angle between 75 and 125 degrees
   servo.write(angle);               // Move the servo to the specified angle
 }
 
