@@ -18,7 +18,7 @@ The **CVPro Competition Kit** is a 4-wheel robot DIY kit tailored for high-perfo
 
 This robust kit includes all essential hardware components to build and operate a fully functional AI-powered robot:
 
-1. **CVPro Controller (ESP32-based)**  
+1. ***CVPro Controller (ESP32-based)**  
    A high-performance microcontroller that supports Wi-Fi and Bluetooth—ideal for real-time AI applications and sensor integration.
 
 2. **Servo Motor with Ackerman Steering System**  
@@ -141,13 +141,13 @@ To establish a proper connection between your mobile phone and the CVPro Control
 
 # 🔧 Working Procedure
 
-### Step 1: Download the Bot Test Codes  
+## Step 1: Download the Bot Test Codes  
 Download the Bot Test Codes folder from the official GitHub repository:  
 🔗 https://github.com/robotixdevteam/CVPro_Competition_Kit/tree/main
 
 ---
 
-### Step 2: Download and Install Arduino IDE  
+## Step 2: Download and Install Arduino IDE  
 Follow the instructions in this link:  
 🔗 https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE
 
@@ -174,7 +174,7 @@ Follow the instructions in this link:
 
 ---
 
-### Step 3: Install Required Libraries in Arduino IDE
+## Step 3: Install Required Libraries in Arduino IDE
 1. Open Arduino IDE.  
 2. Go to **Boards Manager**:  
    • Search for **ESP32**, select version **2.0.17**, and click **Install**.  
@@ -186,7 +186,7 @@ Follow the instructions in this link:
 
 ---
 
-### Step 4: Upload Bot Test Codes  
+## Step 4: Upload Bot Test Codes  
 • Open the downloaded **Bot Test Codes** folder.  
 • Inside, you will find individual test programs for various motors and sensors.  
 • Open each test code in the Arduino IDE and upload them one by one to the CVPro bot for verification and testing.
