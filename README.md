@@ -11,7 +11,7 @@ The **CVPro Competition Kit** is a 4-wheel robot DIY kit tailored for high-perfo
 
 ---
 <p align="center" width="100%">
-    <img width="60%" src="Documents/Images/comp_kit.jpg" />
+    <img width="80%" src="Documents/Images/comp_kit.jpg" />
 </p>
 
 ## 🛠️ Hardware Provided
@@ -117,7 +117,7 @@ The CVPro kit comes with full software support for both programming and competit
 ---
 
 <p align="center" width="100%">
-    <img width="60%" src="Documents/Images/pcb_conn.png" />
+    <img width="80%" src="Documents/Images/pcb_conn.png" />
 </p>
 
 ### 📱 Connecting Mobile Phone to CVPro Controller
