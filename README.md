@@ -187,9 +187,18 @@ Follow the instructions in this link:
 ---
 
 ## Step 4: Upload Bot Test Codes  
-• Open the downloaded **Bot Test Codes** folder.  
-• Inside, you will find individual test programs for various motors and sensors.  
-• Open each test code in the Arduino IDE and upload them one by one to the CVPro bot for verification and testing.
+1. Open the downloaded **Bot Test Codes** folder.  
+2. Inside, you will find individual test programs for various motors and sensors. 
+3. Open the "Bot Test Codes/1_Colour_Sensor_Test_Code" folder. you can find "1_Colour_Sensor_Test_Code.ino" file. 
+4. Click it and open the file in Arduino IDE.
+5. Click on "Select Board", then choose "Select Other Board and Port…".
+6. In the Board section, type and select "DOIT ESP32 DEVKIT V1".
+7. In the Port section, look for a port labeled something like "COM1 Serial Port (USB)".
+    Note: Make sure to select the COM port that includes "(USB)" in its name.
+8. Click the "OK" button.
+9. The board and port are now set up successfully.
+10. Click the "Upload" Button. The test code will be uploaded in the bot.
+11. Open each test code in the Arduino IDE and upload them one by one to the CVPro bot for verification and testing.
 
 ---
 
