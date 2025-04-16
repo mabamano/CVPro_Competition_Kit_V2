@@ -18,7 +18,7 @@ The **CVPro Competition Kit** is a 4-wheel robot DIY kit tailored for high-perfo
 
 This robust kit includes all essential hardware components to build and operate a fully functional AI-powered robot:
 
-1. ***CVPro Controller (ESP32-based)**  
+1. **CVPro Controller (ESP32-based)**  
    A high-performance microcontroller that supports Wi-Fi and Bluetooth—ideal for real-time AI applications and sensor integration.
 
 2. **Servo Motor with Ackerman Steering System**  
@@ -59,7 +59,7 @@ The CVPro kit comes with full software support for both programming and competit
    - It features an object detection model capable of identifying red and green boxes.  
    - Additionally, it supports custom object detection and image classification capabilities.
 
-   ### You can download the APK from this [link](https://drive.google.com/drive/u/0/folders/1uq9PmImZiYLncMbVU259YYULkfPL1bhg)
+   ### You can download the APK from this [Drive Link](https://drive.google.com/drive/u/0/folders/1uq9PmImZiYLncMbVU259YYULkfPL1bhg)
 
 ---
 
@@ -99,7 +99,7 @@ The CVPro kit comes with full software support for both programming and competit
 
 ### Pinouts for CVPro Controller
 
-| Function                                | Port Type | Port No | GPIO Pins         |
+|   Function                               | Port Type | Port No | GPIO Pins         |
 |-----------------------------------------|-----------|---------|--------------------|
 | Motor (Battery Operated Motor)          | USB 3.0   | 1       | 32, 33             |
 | F1US & F2US (Front 1 & 2 Ultrasonic)    | USB 3.0   | 2       | F1 - 16,14 / F2 - 25,26 |
@@ -192,9 +192,9 @@ Follow the instructions in this link:
 3. Open the "Bot Test Codes/1_Colour_Sensor_Test_Code" folder. you can find "1_Colour_Sensor_Test_Code.ino" file. 
 4. Click it and open the file in Arduino IDE.
 5. Click on "Select Board", then choose "Select Other Board and Port…".
-6. In the Board section, type and select "DOIT ESP32 DEVKIT V1".
-7. In the Port section, look for a port labeled something like "COM1 Serial Port (USB)".
-    Note: Make sure to select the COM port that includes "(USB)" in its name.
+6. In the Board section, type and select **"DOIT ESP32 DEVKIT V1"**.
+7. In the Port section, look for a port labeled something like "COM1 Serial Port (USB)". 
+    Note: Make sure to select the COM port that includes **"(USB)"** in its name.
 8. Click the "OK" button.
 9. The board and port are now set up successfully.
 10. Click the "Upload" Button. The test code will be uploaded in the bot.
@@ -227,3 +227,6 @@ If your device is not recognized in the Arduino IDE or you're unable to upload c
 • After installation, go to **System Preferences > Security & Privacy**, and allow the system extension if prompted.  
 • Restart your Mac and then reconnect the device.  
 • Check if the port `/dev/cu.SLAB_USBtoUART` appears in the Arduino IDE under **Tools > Port**.
+
+## Contact
+- Contact us via [Email](mailto:support@meritus.ai)
