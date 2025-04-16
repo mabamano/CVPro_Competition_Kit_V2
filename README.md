@@ -11,7 +11,7 @@ The **CVPro Competition Kit** is a 4-wheel robot DIY kit tailored for high-perfo
 
 ---
 <p align="center" width="100%">
-    <img width="80%" src="Documents/Images/comp_kit.jpg" />
+    <img width="100%" src="Documents/Images/comp_kit.jpg" />
 </p>
 
 ## 🛠️ Hardware Provided
@@ -117,7 +117,7 @@ The CVPro kit comes with full software support for both programming and competit
 ---
 
 <p align="center" width="100%">
-    <img width="80%" src="Documents/Images/pcb_conn.png" />
+    <img width="100%" src="Documents/Images/pcb_conn.png" />
 </p>
 
 ### 📱 Connecting Mobile Phone to CVPro Controller
@@ -131,7 +131,7 @@ To establish a proper connection between your mobile phone and the CVPro Control
    - Insert the Type-C end of the OTG cable into your mobile phone's Type-C port.
 
 3. **Connect to CVPro Controller:**  
-   - Plug the Type-C end of the USB cable into the Type-C port on the CVPro controller PCB.
+   - Plug the Type-C end of the USB cable into the Type-C port on the CVPro controller.
 
 4. **Grant Permissions:**  
    - If the connection is successful, your mobile phone will prompt for permission to access the connected USB device.  
