@@ -14,6 +14,8 @@ The **CVPro Competition Kit** is a 4-wheel robot DIY kit tailored for high-perfo
     <img width="100%" src="Documents/Images/comp_kit.jpg" />
 </p>
 
+---
+
 ## 🛠️ Hardware Provided
 
 This robust kit includes all essential hardware components to build and operate a fully functional AI-powered robot:
@@ -48,6 +50,8 @@ This robust kit includes all essential hardware components to build and operate 
 
 ## 🔧 Robot Construction Guide
 The Construction process for the CVPro Competition Kit can be found at the provided link: [Vimeo Link](https://vimeo.com/1064673881/494deecb76?share=copy)
+
+---
 
 ## 💻 Software Support
 
@@ -122,6 +126,8 @@ The CVPro kit comes with full software support for both programming and competit
 <p align="center" width="100%">
     <img width="100%" src="Documents/Images/pcb_conn.png" />
 </p>
+
+---
 
 ### 📱 Connecting Mobile Phone to CVPro Controller
 
@@ -230,6 +236,8 @@ If your device is not recognized in the Arduino IDE or you're unable to upload c
 • After installation, go to **System Preferences > Security & Privacy**, and allow the system extension if prompted.  
 • Restart your Mac and then reconnect the device.  
 • Check if the port `/dev/cu.SLAB_USBtoUART` appears in the Arduino IDE under **Tools > Port**.
+
+---
 
 ## Contact
 - Contact us via [Email](mailto:support@meritus.ai)
