@@ -46,6 +46,9 @@ This robust kit includes all essential hardware components to build and operate 
 
 ---
 
+# 🔧 Robot Construction Guide
+The Construction process for the CVPro Competition Kit can be found at the link below: [Vimeo Link](https://vimeo.com/1064673881/494deecb76?share=copy)
+
 ## 💻 Software Support
 
 The CVPro kit comes with full software support for both programming and competition-specific applications:
@@ -227,10 +230,6 @@ If your device is not recognized in the Arduino IDE or you're unable to upload c
 • After installation, go to **System Preferences > Security & Privacy**, and allow the system extension if prompted.  
 • Restart your Mac and then reconnect the device.  
 • Check if the port `/dev/cu.SLAB_USBtoUART` appears in the Arduino IDE under **Tools > Port**.
-
-
-# 🔧 CVPro Bot Construction Process
-The Construction process for the CVPro Competition Kit can be found at the link below: [Vimeo Link](https://vimeo.com/1064673881/494deecb76?share=copy)
 
 ## Contact
 - Contact us via [Email](mailto:support@meritus.ai)
