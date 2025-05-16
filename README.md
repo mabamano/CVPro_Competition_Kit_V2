@@ -49,7 +49,7 @@ This robust kit includes all essential hardware components to build and operate 
 ---
 
 ## 🔧 Robot Construction Guide
-Please click on the provided link to view the tutorial video on how to assemble the CV Pro Competition Kit: [Click Here!](https://vimeo.com/1064673881/494deecb76?share=copy)
+Please click on the link to view the tutorial video on how to assemble the CV Pro Competition Kit: [Click Here!](https://vimeo.com/1064673881/494deecb76?share=copy)
 
 ---
 
