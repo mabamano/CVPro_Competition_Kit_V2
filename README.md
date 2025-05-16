@@ -228,5 +228,9 @@ If your device is not recognized in the Arduino IDE or you're unable to upload c
 • Restart your Mac and then reconnect the device.  
 • Check if the port `/dev/cu.SLAB_USBtoUART` appears in the Arduino IDE under **Tools > Port**.
 
+
+# 🔧 Hardware Installation Process
+The hardware installation process for the CVPro Competition Kit can be found at the link below: [Vimeo Link](https://vimeo.com/1064673881/494deecb76?share=copy)
+
 ## Contact
 - Contact us via [Email](mailto:support@meritus.ai)
