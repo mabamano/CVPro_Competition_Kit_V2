@@ -47,7 +47,7 @@ This robust kit includes all essential hardware components to build and operate 
 ---
 
 ## 🔧 Robot Construction Guide
-The Construction process for the CVPro Competition Kit can be found at the link below: [Vimeo Link](https://vimeo.com/1064673881/494deecb76?share=copy)
+The Construction process for the CVPro Competition Kit can be found at the provided link: [Vimeo Link](https://vimeo.com/1064673881/494deecb76?share=copy)
 
 ## 💻 Software Support
 
