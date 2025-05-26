@@ -1,4 +1,4 @@
-# 🤖 CVPro Competition Kit
+# 🤖 CVPro Competition Kit Version 2.0
 <p align="center" width="100%">
     <img width="60%" src="Documents/Images/Cvpro_Com_Kit.png" />
 </p>
