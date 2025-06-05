@@ -75,7 +75,7 @@ The CVPro kit comes with full software support for both programming and competit
 ### About the CVPro Controller:
 
 1. **Charging and Discharging:**  
-   Charging is enabled only when the robot is powered OFF to ensure safety and optimal charging efficiency.
+   Charging is enabled only when the robot is powered OFF to ensure safety and optimal charging efficiency. Use the USB Type-C port for charging. You can either charge the robot using a 5V 1A adapter or via a laptop USB port.
 
 2. **Charging Indicators:**  
    - A **green LED** indicates that the robot is fully charged (only visible when the bot is OFF).  
