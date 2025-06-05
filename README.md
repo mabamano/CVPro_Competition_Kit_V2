@@ -240,4 +240,4 @@ If your device is not recognized in the Arduino IDE or you're unable to upload c
 ---
 
 ## Contact
-- Contact us via [Email](mailto:support@meritus.ai)
+- Contact us via mailto: support@meritus.ai
