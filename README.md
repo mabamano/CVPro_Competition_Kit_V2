@@ -26,7 +26,7 @@ This robust kit includes all essential hardware components to build and operate 
 2. **Servo Motor with Ackerman Steering System**  
    Ensures precise directional control, emulating the steering mechanism of real-world vehicles for efficient turns.
 
-3. **DC Motor with Optical Encoder**  
+3. **DC Motor with IR Encoder**  
    Powers the robot’s forward and backward motion while providing feedback on speed and distance for accurate navigation.
 
 4. **Color Sensor**  
