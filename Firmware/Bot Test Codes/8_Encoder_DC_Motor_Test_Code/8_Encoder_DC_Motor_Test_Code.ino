@@ -9,27 +9,31 @@ int irSensorState = 0;
 bool flag = 1;
 int enc_count = 0; 
 ////////////////////////////////////////
-int enc_val = 250; 
+
+int enc_val = 250;
+
 ////////////////////////////////////////
+
+
 
 // DC Motor
 void motor_forward(int speed) // Speed Value (0 - 255)
 { 
-  ledcWrite(1, speed);
-  ledcWrite(2, 0);
+  ledcWrite(5, speed);
+  ledcWrite(6, 0);
  // Serial.println("motor_forward");
 }
 
 void motor_backward(int speed) // Speed Value (0 - 255)
 { 
-  ledcWrite(1, 0);
-  ledcWrite(2, speed);
+  ledcWrite(5, 0);
+  ledcWrite(6, speed);
  // Serial.println("motor_backward");
 }
 
 void motor_stop() {
-  ledcWrite(1, 0);
-  ledcWrite(2, 0);
+  ledcWrite(5, 0);
+  ledcWrite(6, 0);
   //Serial.println("motor_stop");
 }
 
@@ -37,19 +41,20 @@ void motor_stop() {
 void setup() {
   Serial.begin(115200);
   //######### DC Motor Setup ###########//
-  ledcSetup(1, frequency, 8);
-  ledcSetup(2, frequency, 8);
-  ledcAttachPin(motorPin1, 1);
-  ledcAttachPin(motorPin2, 2);
+  ledcSetup(5, frequency, 8);
+  ledcSetup(6, frequency, 8);
+  ledcAttachPin(motorPin1, 5);
+  ledcAttachPin(motorPin2, 6);
   pinMode(nslp, OUTPUT);
   digitalWrite(nslp, HIGH);
-  
+
   //######### IR Setup ###########//
   pinMode(irSensorPin, INPUT);
 
 }
  
 void loop() {
+
 
   if(flag == 1)
   {
@@ -65,6 +70,7 @@ void loop() {
   
   }
 
+ 
   // Check if enc_counts have reached the threshold
   if (enc_count == enc_val)//((175 <= enc_count) && (enc_count <= 200)) 
   {
