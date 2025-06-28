@@ -5,7 +5,7 @@
 Servo servo;
 
 // Set the bot servo angles
-int center = 95;
+int center = 100;
 int left = center - 20;
 int right = center + 20;
 
