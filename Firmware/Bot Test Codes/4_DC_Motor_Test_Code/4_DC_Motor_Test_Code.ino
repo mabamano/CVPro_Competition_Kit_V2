@@ -7,30 +7,30 @@ const int frequency = 5000;
 // DC Motor
 void motor_forward(int speed) // Speed Value (0 - 255)
 { 
-  ledcWrite(1, speed);
-  ledcWrite(2, 0);
+  ledcWrite(2, speed);
+  ledcWrite(3, 0);
  // Serial.println("motor_forward");
 }
 
 void motor_backward(int speed) // Speed Value (0 - 255)
 { 
-  ledcWrite(1, 0);
-  ledcWrite(2, speed);
+  ledcWrite(2, 0);
+  ledcWrite(3, speed);
   //Serial.println("motor_backward");
 }
 
 void motor_stop() {
-  ledcWrite(1, 0);
   ledcWrite(2, 0);
+  ledcWrite(3, 0);
   //Serial.println("motor_stop");
 }
 
 void setup() {
   //######### DC Motor Setup ###########//
-  ledcSetup(1, frequency, 8);
   ledcSetup(2, frequency, 8);
-  ledcAttachPin(motorPin1, 1);
-  ledcAttachPin(motorPin2, 2);
+  ledcSetup(3, frequency, 8);
+  ledcAttachPin(motorPin1, 2);
+  ledcAttachPin(motorPin2, 3);
 
   pinMode(nslp, OUTPUT);
   digitalWrite(nslp, HIGH);
