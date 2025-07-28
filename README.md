@@ -66,7 +66,9 @@ The CVPro kit comes with full software support for both programming and competit
    - It features an object detection model capable of identifying red and green boxes.  
    - Additionally, it supports custom object detection and image classification capabilities.
 
-   ### You can download the APK from this [Drive Link](https://drive.google.com/drive/folders/14hfHkixK2PBByAgmndw5pUGTW62IbTFV?usp=sharing)
+   //### You can download the APK from this [Drive Link](https://drive.google.com/drive/folders/14hfHkixK2PBByAgmndw5pUGTW62IbTFV?usp=sharing)
+
+   ### 📱 You can download the APK from this [Drive Link](https://drive.google.com/drive/folders/14hfHkixK2PBByAgmndw5pUGTW62IbTFV?usp=sharing) ⬇️
 
 ---
 
