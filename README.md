@@ -192,6 +192,8 @@ Follow the instructions in this link:
    • **ESP32Servo** – Version 1.2.1  
    • **Adafruit TCS34725** – Version 1.4.4
 
+**Note: Make sure to install all the listed libraries with the specified versions; otherwise, errors may occur.**
+
 ---
 
 ## Step 4: Upload Bot Test Codes  
