@@ -11,7 +11,7 @@ The **CVPro Competition Kit** is a 4-wheel robot DIY kit tailored for high-perfo
 
 ---
 <p align="center" width="100%">
-    <img width="100%" src="Documents/Images/comp_kit.jpg" />
+    <img width="100%" src="Documents/Images/CompKit_Part_Def.png" />
 </p>
 
 ---
@@ -26,8 +26,8 @@ This robust kit includes all essential hardware components to build and operate 
 2. **Servo Motor with Ackerman Steering System**  
    Ensures precise directional control, emulating the steering mechanism of real-world vehicles for efficient turns.
 
-3. **DC Motor with IR Encoder**  
-   Powers the robot’s forward and backward motion while providing feedback on speed and distance for accurate navigation.
+3. **DC Motor**  
+   Powers the bot’s forward and backward motion.
 
 4. **Color Sensor**  
    Detects coloured paths or zones on the ground—useful for line-following or zone-based tasks.
@@ -119,7 +119,6 @@ The CVPro kit comes with full software support for both programming and competit
 | NSLEEP For Motor                        | -         | -       | 13                 |
 | Battery Voltage Reading                 | -         | -       | 39                 |
 | DPDT Push Button                        | -         | -       | 34                 |
-| Optical Encoder                         | -         | -       | 36                 |
 
 ---
 
