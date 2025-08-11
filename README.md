@@ -82,14 +82,28 @@ The CVPro kit provides the following software for the Zoo Safari robot:
 
 ---
 
+## 📱 About the Zoo Safari App
+
+Follow these steps to use the app:
+
+1. Open the app.
+2. Connect your phone to the CVPro controller using a Type‑C OTG cable.
+3. When prompted, tap Allow to grant USB permissions.
+4. Swipe up to access controls.
+5. Turn on the USB value toggle.
+6. The app is ready to use.
+
+---
+
 ## 🦁 Zoo Safari Mode
 
-1. Prepare the animal cards:
+1. Prepare the animal cards (size: **210 mm × 99 mm**):
    - Zebra
    - Elephant
    - Giraffe
    - Hunter
 2. Place and use the official Zoo Safari mat. Ensure the mat size is **10 × 10 ft** and laid flat, with good lighting.
+   - Download the Zoo Safari mat: [Download Mat (dummy link)](https://example.com/zoo-safari-mat)
 3. Upload the Zoo Safari code to the bot using Arduino IDE:
    - Open the Zoo Safari sketch in Arduino IDE.
    - Use the same board and port settings as in the setup steps.
