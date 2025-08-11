@@ -1,4 +1,6 @@
-# 🤖 CVPro Competition Kit Version 2.0
+# 🐾 Zoo Safari Robot using CVPro Kit
+
+This project focuses on the Zoo Safari robot built using the CVPro Competition Kit. All instructions, hardware, and software details below are oriented toward the Zoo Safari application.
 
 <p align="center" width="100%">
     <img width="60%" src="Documents/Images/Cvpro_Com_Kit.png" />
@@ -6,11 +8,15 @@
 
 ---
 
-## 🔧 What is the CVPro Competition Kit?
+## 🚀 Quick Start: Zoo Safari
 
-The **CVPro Competition Kit** is a 4-wheel robot DIY kit tailored for high-performance in AI and robotics competitions, especially aligned with the **WRO (World Robot Olympiad)** Future Engineers category. With modular hardware and AI-driven capabilities, this kit allows participants to build, program, and train their robot to tackle real-world tasks using vision and sensor data.
-
----
+1. Assemble the CVPro robot chassis and electronics. See the Robot Construction Guide below.
+2. Install Arduino IDE and required libraries (ESP32 2.0.17, NewPing 1.9.7, FastLED 3.7.0, ESP32Servo 1.2.1, Adafruit TCS34725 1.4.4).
+3. Download and install the Android Zoo Safari app (APK link provided below).
+4. Connect your phone to the CVPro controller using a Type‑C OTG cable and grant permissions.
+5. Upload the Zoo Safari sketch to the CVPro bot in Arduino IDE (board: DOIT ESP32 DEVKIT V1).
+6. Prepare the animal cards (Zebra, Elephant, Giraffe, Hunter) and place the 10 × 10 ft Zoo Safari mat.
+7. Start the app, select Zoo Safari mode, and run the robot.
 
 <p align="center" width="100%">
     <img width="100%" src="Documents/Images/CompKit_Part_Def.png" />
@@ -18,7 +24,7 @@ The **CVPro Competition Kit** is a 4-wheel robot DIY kit tailored for high-perfo
 
 ---
 
-## 🛠️ Hardware Provided
+## 🛠️ Hardware for Zoo Safari Robot
 
 This robust kit includes all essential hardware components to build and operate a fully functional AI-powered robot:
 
@@ -57,22 +63,37 @@ Please click on the link to view the tutorial video on how to assemble the CV Pr
 
 ---
 
-## 💻 Software Support
+## 💻 Software for Zoo Safari
 
-The CVPro kit comes with full software support for both programming and competition-specific applications:
+The CVPro kit provides the following software for the Zoo Safari robot:
 
 1. **Arduino IDE with Required Libraries:**
 
    - Easy-to-use programming environment.
    - Compatible libraries for sensor interfacing, motor control, and AI features like object detection.
 
-2. **Android Mobile App for WRO Round 2:**
+2. **Android Mobile App for Zoo Safari Mode:**
 
-   - An Android mobile application designed specifically for WRO Round 2.
-   - It features an object detection model capable of identifying red and green boxes.
+   - An app designed specifically for Zoo Safari application.
+   - It can identify animals and hunters.
    - Additionally, it supports custom object detection and image classification capabilities.
 
    ### 📱 You can download the APK from this [Drive Link](https://drive.google.com/drive/folders/14hfHkixK2PBByAgmndw5pUGTW62IbTFV?usp=sharing) ⬇️
+
+---
+
+## 🦁 Zoo Safari Mode
+
+1. Prepare the animal cards:
+   - Zebra
+   - Elephant
+   - Giraffe
+   - Hunter
+2. Place and use the official Zoo Safari mat. Ensure the mat size is **10 × 10 ft** and laid flat, with good lighting.
+3. Upload the Zoo Safari code to the bot using Arduino IDE:
+   - Open the Zoo Safari sketch in Arduino IDE.
+   - Use the same board and port settings as in the setup steps.
+   - Click the Upload button to flash the code to the CVPro bot.
 
 ---
 
@@ -157,7 +178,7 @@ To establish a proper connection between your mobile phone and the CVPro Control
 
 ---
 
-# 🔧 Working Procedure
+## 🔧 Detailed Setup and Testing
 
 ## Step 1: Download the Bot Test Codes
 
@@ -230,20 +251,9 @@ Follow the instructions in this link:
 
 ---
 
-## Step 5: Zoo Safari Add-On
+## Step 5: Functional Tests (Optional)
 
-1. Prepare the animal cards:
-   - Zebra
-   - Elephant
-   - Giraffe
-   - Hunter
-2. Place and use the official Zoo Safari mat. Ensure the mat size is **10 × 10 ft** and laid flat, with good lighting.
-3. Upload the Zoo Safari code to the bot using Arduino IDE:
-   - Open the Zoo Safari sketch in Arduino IDE.
-   - Use the same board and port settings as in Step 4.
-   - Click the Upload button to flash the code to the CVPro bot.
-
----
+Run the individual test codes to validate sensors and actuators before running Zoo Safari mode.
 
 # 🔧 Troubleshooting Process
 
