@@ -96,13 +96,15 @@ Follow these steps to use the app:
 
 3. **When prompted, tap Allow to grant USB permissions.**
 
+   <img src="Documents/Images/step_5.jpg" width="300" alt="Step 3: Grant USB permissions" />
+
 4. **Swipe up to access controls.**
 
-   <img src="Documents/Images/step_3.jpg" width="300" alt="Step 3: Grant USB permissions" />
+   <img src="Documents/Images/step_3.jpg" width="300" alt="Step 3: Swipe up to access controls" />
 
 5. **Turn on the USB value toggle.**
 
-   <img src="Documents/Images/step_4.jpg" width="300" alt="Step 4: Swipe up to access controls" />
+   <img src="Documents/Images/step_4.jpg" width="300" alt="Step 4: Turn on the USB value toggle" />
 
 6. **The app is ready to use.**
 
