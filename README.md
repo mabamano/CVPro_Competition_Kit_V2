@@ -86,12 +86,20 @@ The CVPro kit provides the following software for the Zoo Safari robot:
 
 Follow these steps to use the app:
 
-1. Open the app.
-2. Connect your phone to the CVPro controller using a Type‑C OTG cable.
-3. When prompted, tap Allow to grant USB permissions.
-4. Swipe up to access controls.
-5. Turn on the USB value toggle.
-6. The app is ready to use.
+1. **Open the app.**
+   ![Step 1](Documents/Images/step_1.jpg)
+
+2. **Connect your phone to the CVPro controller using a Type‑C OTG cable.**
+   ![Step 2](Documents/Images/step_2.jpg)
+
+3. **When prompted, tap Allow to grant USB permissions.**
+
+4. **Swipe up to access controls.**
+   ![Step 4](Documents/Images/step_3.jpg)
+
+5. **Turn on the USB value toggle.**
+   ![Step 5](Documents/Images/step_4.jpg)
+6. **The app is ready to use.**
 
 ---
 
