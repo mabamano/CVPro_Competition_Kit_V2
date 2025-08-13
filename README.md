@@ -1,6 +1,19 @@
-# 🐾 Zoo Safari Robot using CVPro Kit
+# 🐾 Zeno (The Zoo Safari Robot) using CVPro Kit
 
-This project focuses on the Zoo Safari robot built using the CVPro Competition Kit. All instructions, hardware, and software details below are oriented toward the Zoo Safari application.
+## 🤖 About Zeno (The Zoo Safari Robot)
+
+**Zeno** is an intelligent, AI-powered robot designed specifically for the Zoo Safari Application and educational robotics. Built using the advanced CVPro Competition Kit, Zeno combines computer vision, sensor fusion, and autonomous navigation to create an engaging and interactive robotic experience.
+
+### 🎯 Key Functions of Zeno:
+
+- **🦁 Animal Recognition**: Uses computer vision to identify and classify different animals (Zebra, Elephant, Giraffe, Hunter) placed on the competition mat
+- **🧭 Autonomous Navigation**: Navigates the 10×10 ft Zoo Safari mat using ultrasonic sensors and color detection
+- **📱 Mobile Integration**: Connects with Android devices via USB OTG for real-time image processing and control
+- **🎮 Interactive Control**: Features push-button activation and RGB LED status indicators
+- **🔄 Obstacle Avoidance**: Equipped with 6 ultrasonic sensors for safe movement and collision prevention
+- **⚡ Competition Ready**: Designed for robotics competitions with quick setup and reliable performance
+
+This project focuses on Zeno (The Zoo Safari Robot) built using the CVPro Competition Kit. All instructions, hardware, and software details below are oriented toward the Zoo Safari application.
 
 <p align="center" width="100%">
     <img width="60%" src="Documents/Images/Cvpro_Com_Kit.png" />
@@ -24,7 +37,7 @@ This project focuses on the Zoo Safari robot built using the CVPro Competition K
 
 ---
 
-## 🛠️ Hardware for Zoo Safari Robot
+## 🛠️ Hardware for Zeno (The Zoo Safari Robot)
 
 This robust kit includes all essential hardware components to build and operate a fully functional AI-powered robot:
 
@@ -65,7 +78,7 @@ Please click on the link to view the tutorial video on how to assemble the CV Pr
 
 ## 💻 Software for Zoo Safari
 
-The CVPro kit provides the following software for the Zoo Safari robot:
+The CVPro kit provides the following software for Zeno (The Zoo Safari Robot):
 
 1. **Arduino IDE with Required Libraries:**
 
@@ -209,9 +222,9 @@ To establish a proper connection between your mobile phone and the CVPro Control
 
 ## 🔧 Detailed Setup and Testing
 
-## Step 1: Download the Bot Test Codes
+## Step 1: Download the Zeno Firmware
 
-Download the Bot Test Codes folder from the official GitHub repository:  
+Download the Zeno Firmware folder from the official GitHub repository:  
 🔗 https://github.com/robotixdevteam/CVPro_Competition_Kit/tree/main
 
 ---
@@ -263,11 +276,11 @@ Follow the instructions in this link:
 
 ---
 
-## Step 4: Upload Bot Test Codes
+## Step 4: Upload Zeno Firmware
 
-1. Open the downloaded **Bot Test Codes** folder.
+1. Open the downloaded **Zeno Firmware** folder.
 2. Inside, you will find individual test programs for various motors and sensors.
-3. Open the "Bot Test Codes/1_Colour_Sensor_Test_Code" folder. you can find "1_Colour_Sensor_Test_Code.ino" file.
+3. Open the "Zeno Firmware/1_Colour_Sensor_Test_Code" folder. you can find "1_Colour_Sensor_Test_Code.ino" file.
 4. Click it and open the file in Arduino IDE.
 5. Click on "Select Board", then choose "Select Other Board and Port…".
 6. In the Board section, type and select **"DOIT ESP32 DEVKIT V1"**.
