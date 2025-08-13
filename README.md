@@ -91,7 +91,7 @@ The CVPro kit provides the following software for Zeno robot:
    - It can identify animals and hunters.
    - Additionally, it supports custom object detection and image classification capabilities.
 
-   ### 📱 You can download the APK from this [Drive Link](https://drive.google.com/drive/folders/1c_nOoUd-3N2-vDFBdPV-6lR7L1onROOG?usp=sharing) ⬇️
+   ### 📱 You can download the APK from this [Drive Link](https://drive.google.com/file/d/1pT_TmvDnXAngSOnujgTd6fQjQ7e5thOa/view?usp=sharing) ⬇️
 
 ---
 
