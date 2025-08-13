@@ -1,6 +1,6 @@
 # 🐾 Zeno (The Zoo Safari Robot) using CVPro Kit
 
-## 🤖 About Zeno (The Zoo Safari Robot)
+## 🤖 About Zeno robot
 
 **Zeno** is an intelligent, AI-powered robot designed specifically for the Zoo Safari Application and educational robotics. Built using the advanced CVPro Competition Kit, Zeno combines computer vision, sensor fusion, and autonomous navigation to create an engaging and interactive robotic experience.
 
@@ -13,7 +13,7 @@
 - **🔄 Obstacle Avoidance**: Equipped with 6 ultrasonic sensors for safe movement and collision prevention
 - **⚡ Competition Ready**: Designed for robotics competitions with quick setup and reliable performance
 
-This project focuses on Zeno (The Zoo Safari Robot) built using the CVPro Competition Kit. All instructions, hardware, and software details below are oriented toward the Zoo Safari application.
+This project focuses on Zeno robot built using the CVPro Competition Kit. All instructions, hardware, and software details below are oriented toward the Zoo Safari application.
 
 <p align="center" width="100%">
     <img width="60%" src="Documents/Images/Cvpro_Com_Kit.png" />
@@ -37,7 +37,7 @@ This project focuses on Zeno (The Zoo Safari Robot) built using the CVPro Compet
 
 ---
 
-## 🛠️ Hardware for Zeno (The Zoo Safari Robot)
+## 🛠️ Hardware for Zeno robot
 
 This robust kit includes all essential hardware components to build and operate a fully functional AI-powered robot:
 
@@ -78,7 +78,7 @@ Please click on the link to view the tutorial video on how to assemble the CV Pr
 
 ## 💻 Software for Zoo Safari
 
-The CVPro kit provides the following software for Zeno (The Zoo Safari Robot):
+The CVPro kit provides the following software for Zeno robot:
 
 1. **Arduino IDE with Required Libraries:**
 
