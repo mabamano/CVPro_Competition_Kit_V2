@@ -107,7 +107,7 @@ Follow these steps to use the app:
 
    <img src="Documents/Images/step_2.jpg" width="300" alt="Step 2: Connect phone to CVPro controller" />
 
-3. **When prompted, tap Allow to grant USB permissions.**
+3. **When prompted, tap Allow to grant USB permissions and click the 'Object Detection' Button**
 
    <img src="Documents/Images/step_5.jpg" width="300" alt="Step 3: Grant USB permissions" />
 
@@ -133,7 +133,7 @@ Follow these steps to use the app:
 2. Place and use the official Zoo Safari mat. Ensure the mat size is **10 × 10 ft** and laid flat, with good lighting.
    - Download the Zoo Safari mat: [Download Mat (dummy link)](https://example.com/zoo-safari-mat)
 3. Upload the Zeno_firmware code to the bot using Arduino IDE:
-   - Open the Zoo Safari sketch in Arduino IDE.
+   - Open the Zeno_firmware in Arduino IDE.
    - Use the same board and port settings as in the setup steps.
    - Click the Upload button to flash the code to the CVPro bot.
 
@@ -280,7 +280,7 @@ Follow the instructions in this link:
 
 1. Open the downloaded **Zeno Firmware** folder.
 2. Inside, you will find individual test programs for various motors and sensors.
-3. Open the "Zeno Firmware/1_Colour_Sensor_Test_Code" folder. you can find "1_Colour_Sensor_Test_Code.ino" file.
+3. Open the "Zeno_firmware" folder. you can find "Zeno_firmware.ino" file.
 4. Click it and open the file in Arduino IDE.
 5. Click on "Select Board", then choose "Select Other Board and Port…".
 6. In the Board section, type and select **"DOIT ESP32 DEVKIT V1"**.
@@ -288,14 +288,9 @@ Follow the instructions in this link:
    Note: Make sure to select the COM port that includes **"(USB)"** in its name.
 8. Click the "OK" button.
 9. The board and port are now set up successfully.
-10. Click the "Upload" Button. The test code will be uploaded in the bot.
-11. Open each test code in the Arduino IDE and upload them one by one to the CVPro bot for verification and testing.
+10. Click the "Upload" Button. The Zeno_firmware will be uploaded in the bot.
 
 ---
-
-## Step 5: Functional Tests (Optional)
-
-Run the individual test codes to validate sensors and actuators before running Zoo Safari mode.
 
 # 🔧 Troubleshooting Process
 
