@@ -21,7 +21,7 @@ This project focuses on Zeno robot built using the CVPro Competition Kit. All in
 
 ---
 
-## 🚀 Quick Start: Zoo Safari
+## 🚀 Quick Start: Zeno robot
 
 1. Assemble the CVPro robot chassis and electronics. See the Robot Construction Guide below.
 2. Install Arduino IDE and required libraries (ESP32 2.0.17, NewPing 1.9.7, FastLED 3.7.0, ESP32Servo 1.2.1, Adafruit TCS34725 1.4.4).
@@ -76,7 +76,7 @@ Please click on the link to view the tutorial video on how to assemble the CV Pr
 
 ---
 
-## 💻 Software for Zoo Safari
+## 💻 Software for Zeno robot
 
 The CVPro kit provides the following software for Zeno robot:
 
@@ -85,17 +85,17 @@ The CVPro kit provides the following software for Zeno robot:
    - Easy-to-use programming environment.
    - Compatible libraries for sensor interfacing, motor control, and AI features like object detection.
 
-2. **Android Mobile App for Zoo Safari Mode:**
+2. **Android Mobile App for Zeno robot:**
 
-   - An app designed specifically for Zoo Safari application.
+   - An app designed specifically for Zeno robot application.
    - It can identify animals and hunters.
    - Additionally, it supports custom object detection and image classification capabilities.
 
-   ### 📱 You can download the APK from this [Drive Link](https://drive.google.com/drive/folders/14hfHkixK2PBByAgmndw5pUGTW62IbTFV?usp=sharing) ⬇️
+   ### 📱 You can download the APK from this [Drive Link](https://drive.google.com/drive/folders/1c_nOoUd-3N2-vDFBdPV-6lR7L1onROOG?usp=sharing) ⬇️
 
 ---
 
-## 📱 About the Zoo Safari App
+## 📱 About the Zeno robot App
 
 Follow these steps to use the app:
 
@@ -123,7 +123,7 @@ Follow these steps to use the app:
 
 ---
 
-## 🦁 Zoo Safari Mode
+## 🦁 Zoo Safari requirements
 
 1. Prepare the animal cards (size: **210 mm × 99 mm**):
    - Zebra
