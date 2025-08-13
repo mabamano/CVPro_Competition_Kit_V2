@@ -25,11 +25,11 @@ This project focuses on Zeno robot built using the CVPro Competition Kit. All in
 
 1. Assemble the CVPro robot chassis and electronics. See the Robot Construction Guide below.
 2. Install Arduino IDE and required libraries (ESP32 2.0.17, NewPing 1.9.7, FastLED 3.7.0, ESP32Servo 1.2.1, Adafruit TCS34725 1.4.4).
-3. Download and install the Android Zoo Safari app (APK link provided below).
+3. Download and install the Android Zeno app (APK link provided below).
 4. Connect your phone to the CVPro controller using a Type‑C OTG cable and grant permissions.
-5. Upload the Zoo Safari sketch to the CVPro bot in Arduino IDE (board: DOIT ESP32 DEVKIT V1).
+5. Upload the Zeno_firmware to the CVPro bot in Arduino IDE (board: DOIT ESP32 DEVKIT V1).
 6. Prepare the animal cards (Zebra, Elephant, Giraffe, Hunter) and place the 10 × 10 ft Zoo Safari mat.
-7. Start the app, select Zoo Safari mode, and run the robot.
+7. Start the app, select 'Object Detection', and run the robot.
 
 <p align="center" width="100%">
     <img width="100%" src="Documents/Images/CompKit_Part_Def.png" />
@@ -225,7 +225,7 @@ To establish a proper connection between your mobile phone and the CVPro Control
 ## Step 1: Download the Zeno Firmware
 
 Download the Zeno Firmware folder from the official GitHub repository:  
-🔗 https://github.com/robotixdevteam/CVPro_Competition_Kit/tree/main
+🔗 https://drive.google.com/file/d/1Z6cVvY3jyejg-oD4IbAeh-IvRI4_5a9i/view?usp=sharing
 
 ---
 
