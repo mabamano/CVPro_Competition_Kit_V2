@@ -132,7 +132,7 @@ Follow these steps to use the app:
    - Hunter
 2. Place and use the official Zoo Safari mat. Ensure the mat size is **10 × 10 ft** and laid flat, with good lighting.
    - Download the Zoo Safari mat: [Download Mat (dummy link)](https://example.com/zoo-safari-mat)
-3. Upload the Zoo Safari code to the bot using Arduino IDE:
+3. Upload the Zeno_firmware code to the bot using Arduino IDE:
    - Open the Zoo Safari sketch in Arduino IDE.
    - Use the same board and port settings as in the setup steps.
    - Click the Upload button to flash the code to the CVPro bot.
